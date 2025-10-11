@@ -25,6 +25,7 @@
       <a href="{{ url_for('home') }}" class="{% if request.endpoint == 'home' %}active{% endif %}">HOME</a>
       <a href="{{ url_for('about_ergot') }}" class="{% if request.endpoint == 'about_ergot' %}active{% endif %}">ABOUT ERGOT</a>
       <a href="{{ url_for('identify') }}" class="{% if request.endpoint == 'identify' %}active{% endif %}">IDENTIFY</a>
+      <a href="{{ url_for('official_insights') }}" class="{% if request.endpoint == 'official_insights' %}active{% endif %}">OFFICIAL INSIGHTS</a>
       <a href="{{ url_for('faq') }}" class="{% if request.endpoint == 'faq' %}active{% endif %}">FAQs</a>
     </nav>
 

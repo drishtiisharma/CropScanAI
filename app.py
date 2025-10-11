@@ -63,6 +63,10 @@ def identify():
 def faq():
     return render_template("faq.html")
 
+@app.route("/official_insights")
+def official_insights():
+    return render_template("official_insights.html")
+
 # -------------------- PREDICTION ROUTE --------------------
 
 @app.route("/predict", methods=["POST"])

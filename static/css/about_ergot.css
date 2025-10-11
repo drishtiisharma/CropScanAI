@@ -13,7 +13,6 @@
 
     .hero-section {
       background: linear-gradient(135deg, #166534 0%, #65a30d 50%, #a3e635 100%);
-
       color: white;
       padding: 4rem 2rem;
       margin-bottom: 4rem;
@@ -486,3 +485,6 @@
         grid-template-columns: 1fr;
       }
     }
+
+
+    
