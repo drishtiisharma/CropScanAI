@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthy Crop - CropScanAI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/results_healthy.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+ {% include 'banner.html' %}
+  <div class="results-container">
+    <div class="success-banner">
+      <div class="success-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <div class="success-content">
+        <h1>Healthy Crop Detected!</h1>
+        <p>Excellent news! Our advanced AI analysis has found no signs of ergot infection in your pearl millet sample. Your crop is in great condition.</p>
+      </div>
+      <div class="celebration-badge">🎉</div>
+    </div>
+
+    <div class="main-grid">
+      <div>
+        <div class="card">
+          <h2><i class="fas fa-heartbeat"></i> Health Analysis</h2>
+          
+          <div class="health-score-display">
+            <div class="score-circle">
+              <svg width="180" height="180" style="transform: rotate(-90deg)">
+                <circle cx="90" cy="90" r="75" fill="none" stroke="#d1fae5" stroke-width="12"/>
+                <circle id="health-circle" cx="90" cy="90" r="75" fill="none" stroke="url(#healthGradient)" stroke-width="12" 
+                        stroke-dasharray="471" stroke-dashoffset="471" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="healthGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="score-number" id="health-value">{{ confidence|default(95) }}%</div>
+            </div>
+            <div class="score-label">Health Score</div>
+          </div>
+
+          <div class="health-indicators">
+            <div class="indicator-item">
+              <div class="indicator-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <div class="indicator-content">
+                <h4>Disease Status</h4>
+                <p>Healthy</p>
+              </div>
+            </div>
+            <div class="indicator-item">
+              <div class="indicator-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="indicator-content">
+                <h4>Analysis Time</h4>
+                <p>1.8s</p>
+              </div>
+            </div>
+            <div class="indicator-item">
+              <div class="indicator-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="indicator-content">
+                <h4>Confidence</h4>
+                <p>{{ confidence|default(95) }}%</p>
+              </div>
+            </div>
+            <div class="indicator-item">
+              <div class="indicator-icon">
+                <i class="fas fa-leaf"></i>
+              </div>
+              <div class="indicator-content">
+                <h4>Quality</h4>
+                <p>Excellent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top: 2rem;">
+          <h2><i class="fas fa-image"></i> Sample Analysis</h2>
+          <div class="image-showcase">
+            <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="Your Healthy Millet Sample">
+            <div class="image-badge">
+              <i class="fas fa-check-circle"></i>
+              <span>Verified Healthy</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="card">
+          <h2><i class="fas fa-star"></i> Quality Metrics</h2>
+          <div style="margin-top: 1.5rem;">
+            <div class="success-badge">
+              <i class="fas fa-check-circle"></i>
+              Premium Quality
+            </div>
+            <p style="margin-top: 1.5rem; line-height: 1.7; color: #4a5568;">
+              Your pearl millet sample shows excellent health with no detectable signs of ergot or other fungal infections. The crop appears to have proper color, structure, and development.
+            </p>
+            <div style="margin-top: 1.5rem; padding: 1rem; background: #d1fae5; border-radius: 8px; border-left: 4px solid #10b981;">
+              <strong style="color: #065f46;">✓ Recommendation:</strong>
+              <p style="margin-top: 0.5rem; color: #065f46; font-size: 0.95rem;">
+                Continue your current crop management practices. Regular monitoring will help maintain this excellent health status.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="stats-showcase">
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <div class="stat-value">0</div>
+          <div class="stat-label">Infections Detected</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-percentage"></i>
+          </div>
+          <div class="stat-value">{{ confidence|default(95) }}%</div>
+          <div class="stat-label">Health Confidence</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="stat-value">A+</div>
+          <div class="stat-label">Quality Grade</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon">
+            <i class="fas fa-check-double"></i>
+          </div>
+          <div class="stat-value">Pass</div>
+          <div class="stat-label">Safety Status</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="tips-section">
+        <h3><i class="fas fa-lightbulb"></i> Tips to Maintain Crop Health</h3>
+        <ul class="tips-list">
+          <li>Continue monitoring your crops regularly for early detection of any potential issues</li>
+          <li>Practice crop rotation annually to maintain soil health and reduce disease pressure</li>
+          <li>Maintain proper plant spacing (15-20cm) to ensure adequate air circulation</li>
+          <li>Use only certified, disease-free seeds from reliable sources for future planting</li>
+          <li>Implement balanced irrigation - avoid both water stress and waterlogging conditions</li>
+          <li>Apply organic mulch to regulate soil temperature and moisture levels</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="action-grid">
+      <div class="action-card" onclick="window.location.href='{{ url_for('identify') }}'">
+        <i class="fas fa-redo-alt"></i>
+        <h3>Scan Another Sample</h3>
+        <p>Analyze more of your crops</p>
+      </div>
+      <div class="action-card">
+        <i class="fas fa-book-open"></i>
+        <h3>Learn About Ergot</h3>
+        <p>Prevention and identification guide</p>
+      </div>
+      <div class="action-card" onclick="window.location.href='{{ url_for('about_ergot') }}'">
+        <i class="fas fa-file-pdf"></i>
+        <h3>Download Report</h3>
+        <p>Save health certificate</p>
+      </div>
+      <div class="action-card">
+        <i class="fas fa-share-alt"></i>
+        <h3>Share Results</h3>
+        <p>Send to agricultural advisor</p>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const health = {{ confidence|default(95) }};
+      const circle = document.getElementById('health-circle');
+      const circumference = 471;
+      const offset = circumference - (health / 100) * circumference;
+      
+      setTimeout(() => {
+        circle.style.transition = 'stroke-dashoffset 2s ease-in-out';
+        circle.style.strokeDashoffset = offset;
+      }, 300);
+
+      // Animate health number
+      const healthValue = document.getElementById('health-value');
+      let current = 0;
+      const increment = health / 100;
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= health) {
+          current = health;
+          clearInterval(timer);
+        }
+        healthValue.textContent = Math.round(current) + '%';
+      }, 20);
+    });
+  </script>
+ {% include 'footer.html' %}
+</body>
+</html>
