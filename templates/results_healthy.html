@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='css/results_healthy.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
 </head>
 <body>
  {% include 'banner.html' %}
@@ -120,38 +120,6 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="stats-showcase">
-        <div class="stat-card">
-          <div class="stat-icon">
-            <i class="fas fa-microscope"></i>
-          </div>
-          <div class="stat-value">0</div>
-          <div class="stat-label">Infections Detected</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">
-            <i class="fas fa-percentage"></i>
-          </div>
-          <div class="stat-value">{{ confidence|default(95) }}%</div>
-          <div class="stat-label">Health Confidence</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">
-            <i class="fas fa-trophy"></i>
-          </div>
-          <div class="stat-value">A+</div>
-          <div class="stat-label">Quality Grade</div>
-        </div>
-        <div class="stat-card">
-          <div class="stat-icon">
-            <i class="fas fa-check-double"></i>
-          </div>
-          <div class="stat-value">Pass</div>
-          <div class="stat-label">Safety Status</div>
-        </div>
-      </div>
-    </div>
 
     <div class="card">
       <div class="tips-section">

@@ -16,11 +16,13 @@
       color: white;
       padding: 4rem 2rem;
       margin-bottom: 4rem;
+      text-align: center;
     }
 
     .hero-content {
       max-width: 1200px;
       margin: 0 auto;
+      text-align: center;
     }
 
     .hero-content h1 {
@@ -28,14 +30,18 @@
       font-weight: 700;
       margin-bottom: 1rem;
       letter-spacing: -0.5px;
+      text-align: center;
     }
 
-    .hero-content p {
-      font-size: 1.25rem;
-      opacity: 0.95;
-      max-width: 800px;
-      font-weight: 300;
-    }
+ .hero-content p {
+  font-size: 1.25rem;
+  opacity: 0.95;
+  max-width: 800px;
+  font-weight: 300;
+  text-align: center;      /* keep text centered */
+  margin: 0 auto;          /* ✅ center the block itself */
+}
+
 
     .container {
       max-width: 1200px;
