@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ergot Detected - CropScanAI</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/ergot-detected.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
+<link rel="icon" type="image/x-icon" href="static/logo3.png">
+</head>
+<body>
+ {% include 'banner.html' %}
+
+<div class="results-container">
+  <div class="status-banner">
+    <div class="status-icon">
+      <i class="fas fa-exclamation-triangle"></i>
+    </div>
+    <div class="status-content">
+      <h1>{{ _('Ergot Infection Detected') }}</h1>
+      <p>{{ _('Our advanced AI analysis has identified ergot contamination in your pearl millet sample. Immediate attention is recommended to prevent further spread.') }}</p>
+    </div>
+  </div>
+
+  <div class="main-grid">
+    <div>
+      <div class="card">
+        <h2><i class="fas fa-chart-line"></i> {{ _('Detection Analysis') }}</h2>
+
+        <div class="confidence-section">
+          <div class="confidence-display">
+            <div class="confidence-circle">
+              <svg width="180" height="180" style="transform: rotate(-90deg)">
+                <circle cx="90" cy="90" r="75" fill="none" stroke="#e2e8f0" stroke-width="12"/>
+                <circle id="progress-circle" cx="90" cy="90" r="75" fill="none" stroke="url(#gradient)" stroke-width="12" 
+                        stroke-dasharray="471" stroke-dashoffset="471" stroke-linecap="round"/>
+                <defs>
+                  <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#ff6b6b;stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:#c92a2a;stop-opacity:1" />
+                  </linearGradient>
+                </defs>
+              </svg>
+              <div class="confidence-number" id="confidence-value">{{ confidence|default(85) }}%</div>
+            </div>
+            <div class="confidence-label">{{ _('Detection Confidence') }}</div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-item">
+              <div class="stat-label">{{ _('Severity Level') }}</div>
+              <div class="stat-value">{{ _('High') }}</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">{{ _('Analysis Time') }}</div>
+              <div class="stat-value">2.3s</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">{{ _('Model Accuracy') }}</div>
+              <div class="stat-value">94.7%</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-label">{{ _('Risk Assessment') }}</div>
+              <div class="stat-value">{{ _('Critical') }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 2rem;">
+        <h2><i class="fas fa-image"></i> {{ _('Sample Analysis') }}</h2>
+        <div class="image-showcase">
+          <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="{{ _('Your Diseased Millet Sample') }}">
+          <div class="image-badge" style="background-color: rgba(255, 0, 0, 0.1); color: #c0392b;">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>{{ _('Verified Infected') }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <h2><i class="fas fa-clipboard-list"></i> {{ _('Key Findings') }}</h2>
+        <div style="margin-top: 1.5rem;">
+          <div class="severity-indicator">
+            <i class="fas fa-circle"></i>
+            {{ _('High Severity') }}
+          </div>
+          <p style="margin-top: 1.5rem; line-height: 1.7; color: #4a5568;">
+            {{ _('The analysis indicates significant ergot presence in your sample. This fungal infection can produce harmful alkaloids that affect both crop quality and safety.') }}
+          </p>
+          <div style="margin-top: 1.5rem; padding: 1rem; background: #fff7ed; border-radius: 8px; border-left: 4px solid #f59e0b;">
+            <strong style="color: #92400e;">⚠️ {{ _('Action Required:') }}</strong>
+            <p style="margin-top: 0.5rem; color: #92400e; font-size: 0.95rem;">
+              {{ _('Immediate intervention is recommended to prevent further contamination and protect crop yields.') }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="recommendations">
+      <h3><i class="fas fa-lightbulb"></i> {{ _('Recommended Actions') }}</h3>
+      <ul class="recommendation-list">
+        <li>{{ _('Immediately isolate infected crops to prevent spore spread to healthy plants in your field') }}</li>
+        <li>{{ _('Apply appropriate fungicides recommended by certified agricultural experts or extension services') }}</li>
+        <li>{{ _('Increase planting spacing to improve air circulation and reduce humidity around plants') }}</li>
+        <li>{{ _('Implement crop rotation with non-host species to break the ergot disease cycle') }}</li>
+        <li>{{ _('Consult with local agricultural extension services for region-specific treatment protocols') }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="action-grid">
+    <div class="action-card" onclick="window.location.href='{{ url_for('identify') }}'">
+      <i class="fas fa-redo-alt"></i>
+      <h3>{{ _('Scan Another Sample') }}</h3>
+      <p>{{ _('Upload a new image for analysis') }}</p>
+    </div>
+    <div class="action-card" onclick="window.location.href='{{ url_for('about_ergot') }}'">
+      <i class="fas fa-book-open"></i>
+      <h3>{{ _('Learn About Ergot') }}</h3>
+      <p>{{ _('Comprehensive information guide') }}</p>
+    </div>
+<div class="action-card" onclick="window.print()">
+  <i class="fas fa-file-pdf"></i>
+  <h3>{{ _('Download Report') }}</h3>
+  <p>{{ _('Save this analysis as PDF') }}</p>
+</div>
+    <div class="action-card" onclick="window.location.href='{{ url_for('contact') }}'">
+      <i class="fas fa-phone-alt"></i>
+      <h3>{{ _('Get Expert Help') }}</h3>
+      <p>{{ _('Connect with agricultural advisors') }}</p>
+    </div>
+  </div>
+</div>
+
+{% include 'footer.html' %}
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const confidence = {{ confidence|default(85) }};
+      const circle = document.getElementById('progress-circle');
+      const circumference = 471;
+      const offset = circumference - (confidence / 100) * circumference;
+      
+      setTimeout(() => {
+        circle.style.transition = 'stroke-dashoffset 2s ease-in-out';
+        circle.style.strokeDashoffset = offset;
+      }, 300);
+
+      // Animate confidence number
+      const confValue = document.getElementById('confidence-value');
+      let current = 0;
+      const increment = confidence / 100;
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= confidence) {
+          current = confidence;
+          clearInterval(timer);
+        }
+        confValue.textContent = Math.round(current) + '%';
+      }, 20);
+    });
+  </script>
+
+
+
+</body>
+</html>

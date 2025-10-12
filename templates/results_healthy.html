@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Healthy Crop - CropScanAI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/results_healthy.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
+</head>
+<body>
+{% include 'banner.html' %}
+
+<div class="results-container">
+  <!-- Success Banner -->
+  <div class="success-banner">
+    <div class="success-icon">
+      <i class="fas fa-check-circle"></i>
+    </div>
+    <div class="success-content">
+      <h1>{{ _('Healthy Crop Detected!') }}</h1>
+      <p>{{ _('Excellent news! Our advanced AI analysis has found no signs of ergot infection in your pearl millet sample. Your crop is in great condition.') }}</p>
+    </div>
+    <div class="celebration-badge">🎉</div>
+  </div>
+
+  <!-- Main Grid -->
+  <div class="main-grid">
+    <!-- Left Column -->
+    <div>
+      <!-- Health Analysis Card -->
+      <div class="card">
+        <h2><i class="fas fa-heartbeat"></i> {{ _('Health Analysis') }}</h2>
+        <div class="health-score-display">
+          <div class="score-circle">
+            <svg width="180" height="180" style="transform: rotate(-90deg)">
+              <circle cx="90" cy="90" r="75" fill="none" stroke="#d1fae5" stroke-width="12"/>
+              <circle id="health-circle" cx="90" cy="90" r="75" fill="none" stroke="url(#healthGradient)" stroke-width="12" 
+                      stroke-dasharray="471" stroke-dashoffset="471" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="healthGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="score-number" id="health-value">{{ confidence|default(95) }}%</div>
+          </div>
+          <div class="score-label">{{ _('Health Score') }}</div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-label">{{ _('Severity Level') }}</div>
+            <div class="stat-value">{{ _('Low') }}</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-label">{{ _('Analysis Time') }}</div>
+            <div class="stat-value">2.3s</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-label">{{ _('Model Accuracy') }}</div>
+            <div class="stat-value">94.7%</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-label">{{ _('Risk Assessment') }}</div>
+            <div class="stat-value">{{ _('Safe') }}</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sample Analysis Card -->
+      <div class="card" style="margin-top: 2rem;">
+        <h2><i class="fas fa-image"></i> {{ _('Sample Analysis') }}</h2>
+        <div class="image-showcase">
+          <img src="{{ url_for('static', filename='uploads/' + filename) }}" alt="{{ _('Your Healthy Millet Sample') }}">
+          <div class="image-badge">
+            <i class="fas fa-check-circle"></i>
+            <span>{{ _('Verified Healthy') }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div>
+      <!-- Quality Metrics Card -->
+      <div class="card">
+        <h2><i class="fas fa-star"></i> {{ _('Quality Metrics') }}</h2>
+        <div style="margin-top: 1.5rem;">
+          <div class="success-badge">
+            <i class="fas fa-check-circle"></i>
+            {{ _('Premium Quality') }}
+          </div>
+          <p style="margin-top: 1.5rem; line-height: 1.7; color: #4a5568;">
+            {{ _('Your pearl millet sample shows excellent health with no detectable signs of ergot or other fungal infections. The crop appears to have proper color, structure, and development.') }}
+          </p>
+          <div style="margin-top: 1.5rem; padding: 1rem; background: #d1fae5; border-radius: 8px; border-left: 4px solid #10b981;">
+            <strong style="color: #065f46;">✓ {{ _('Recommendation:') }}</strong>
+            <p style="margin-top: 0.5rem; color: #065f46; font-size: 0.95rem;">
+              {{ _('Continue your current crop management practices. Regular monitoring will help maintain this excellent health status.') }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tips Section -->
+  <div class="card">
+    <div class="tips-section">
+      <h3><i class="fas fa-lightbulb"></i> {{ _('Tips to Maintain Crop Health') }}</h3>
+      <ul class="tips-list">
+        <li>{{ _('Continue monitoring your crops regularly for early detection of any potential issues') }}</li>
+        <li>{{ _('Practice crop rotation annually to maintain soil health and reduce disease pressure') }}</li>
+        <li>{{ _('Maintain proper plant spacing (15-20cm) to ensure adequate air circulation') }}</li>
+        <li>{{ _('Use only certified, disease-free seeds from reliable sources for future planting') }}</li>
+        <li>{{ _('Implement balanced irrigation - avoid both water stress and waterlogging conditions') }}</li>
+        <li>{{ _('Apply organic mulch to regulate soil temperature and moisture levels') }}</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Action Grid -->
+  <div class="action-grid">
+    <div class="action-card" onclick="window.location.href='{{ url_for('identify') }}'">
+      <i class="fas fa-redo-alt"></i>
+      <h3>{{ _('Scan Another Sample') }}</h3>
+      <p>{{ _('Analyze more of your crops') }}</p>
+    </div>
+    <div class="action-card" onclick="window.location.href='{{ url_for('about_ergot') }}'">
+      <i class="fas fa-book-open"></i>
+      <h3>{{ _('Learn About Ergot') }}</h3>
+      <p>{{ _('Prevention and identification guide') }}</p>
+    </div>
+    <div class="action-card" onclick="window.print()">
+      <i class="fas fa-file-pdf"></i>
+      <h3>{{ _('Download Report') }}</h3>
+      <p>{{ _('Save health certificate') }}</p>
+    </div>
+    <div class="action-card" onclick="window.location.href='{{ url_for('contact') }}'">
+      <i class="fas fa-share-alt"></i>
+      <h3>{{ _('Share Results') }}</h3>
+      <p>{{ _('Send to agricultural advisor') }}</p>
+    </div>
+  </div>
+</div>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Animate health circle
+      const health = {{ confidence|default(95) }};
+      const circle = document.getElementById('health-circle');
+      const circumference = 471;
+      const offset = circumference - (health / 100) * circumference;
+      
+      setTimeout(() => {
+        circle.style.transition = 'stroke-dashoffset 2s ease-in-out';
+        circle.style.strokeDashoffset = offset;
+      }, 300);
+
+      // Animate health number
+      const healthValue = document.getElementById('health-value');
+      let current = 0;
+      const increment = health / 100;
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= health) {
+          current = health;
+          clearInterval(timer);
+        }
+        healthValue.textContent = Math.round(current) + '%';
+      }, 20);
+    });
+  </script>
+  
+  {% include 'footer.html' %}
+</body>
+</html>

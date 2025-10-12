@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl Millet Ergot Research Insights</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/official_insights.css') }}"> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
+
+</head>
+
+
+<body>
+
+     {% include 'banner.html' %}
+
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>{{ _('Pearl Millet Ergot Research') }}</h1>
+      <p>{{ _('Survey-Based Scientific Assessment of Claviceps fusiformis (Ergot) Disease Occurrence and Management Practices in India') }}</p>
+    </div>
+  </div>
+
+    <div class="container">
+        <div class="featured-post">
+            <div class="featured-badge">{{ _('Featured Research') }}</div>
+            <div class="featured-content">
+                <div class="post-meta">
+                    <span class="post-category">{{ _('Disease Survey') }}</span>
+                    <span>📅 2024</span>
+                    <span>📍 {{ _('Marathwada Region') }}</span>
+                    <span>⏱️ {{ _('4 min read') }}</span>
+                </div>
+                <h2 class="post-title">{{ _('Ergot Disease Survey in Pearl Millet - Marathwada Region') }}</h2>
+                <p class="post-excerpt">
+                    {{ _('A comprehensive survey across nine tehsils in Chh. Sambhaji Nagar district (Kharif 2023-24) assessed ergot disease prevalence. Disease incidence ranged from 5.50%% (Phulambari) to 22.00%% (Kannad), with a mean of 13.19%%. Among cultivars, local varieties showed highest susceptibility (16.33%%), while Pioneer 86M38 demonstrated best resistance (8.04%%).') }}
+                </p>
+                <a href="https://www.biochemjournal.com/archives/2024.v8.i12.N.3356/survey-of-ergot-disease-of-pearl-millet-caused-by-claviceps-fusiformis-loveless-in-marathwada-region-district-of-chh-sambhaji-nagar-mh" class="read-more" target="_blank">{{ _('Read Full Report →') }}</a>
+                <div class="author">
+                    <div class="author-avatar">RR</div>
+                    <div class="author-info">
+                        <div class="author-name">{{ _('Ram R. Rathod et al.') }}</div>
+                        <div>{{ _('Biochem Journal, Vol. 8, Issue 12') }}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="blog-grid">
+            <article class="blog-post">
+                <div class="post-image">🌾</div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">{{ _('Disease Management') }}</span>
+                        <span>📅 1988</span>
+                        <span>📚 {{ _('ICRISAT Manual') }}</span>
+                    </div>
+                    <h3 class="post-title">{{ _('Ergot Disease Management Guide') }}</h3>
+                    <p class="post-excerpt">
+                        {{ _("ICRISAT's foundational manual on pearl millet ergot covers disease distribution, symptoms, fungal morphology, and disease cycle. Grain yield losses range from 58-70%% under favorable conditions. The guide emphasizes host-plant resistance as the primary control strategy.") }}
+                    </p>
+                    <a href="https://oar.icrisat.org/957/" class="source-link" target="_blank">{{ _('View ICRISAT Repository') }}</a>
+                    <div class="author">
+                        <div class="author-avatar">RT</div>
+                        <div class="author-info">
+                            <div class="author-name">{{ _('R.P. Thakur & S.B. King') }}</div>
+                            <div>{{ _('International Crops Research Institute') }}</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">🔬</div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">{{ _('Pathogen Biology') }}</span>
+                        <span>📅 {{ _('Recent') }}</span>
+                        <span>🌍 {{ _('Africa & Asia') }}</span>
+                    </div>
+                    <h3 class="post-title">{{ _('Understanding Claviceps fusiformis') }}</h3>
+                    <p class="post-excerpt">
+                        {{ _('This specialized fungal pathogen affects pearl millet through honeydew production (creamy to pink droplets) on infected florets. Dark sclerotia replace grains, making produce unsafe due to toxic alkaloid content.') }}
+                    </p>
+                    <a href="https://plantwiseplusknowledgebank.org/doi/10.1079/pwkb.species.13788" class="source-link" target="_blank">{{ _('PlantWise Knowledge Bank') }}</a>
+                    <div class="author">
+                        <div class="author-avatar">PW</div>
+                        <div class="author-info">
+                            <div class="author-name">{{ _('PlantWise Plus') }}</div>
+                            <div>{{ _('CABI Compendium') }}</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">🧬</div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">{{ _('Genetics & Breeding') }}</span>
+                        <span>📅 2015</span>
+                        <span>🔍 {{ _('Review Article') }}</span>
+                    </div>
+                    <h3 class="post-title">{{ _('Biology and Genetics of Ergot in Cereals') }}</h3>
+                    <p class="post-excerpt">
+                        {{ _('Review of ergot diseases in cereals, focusing on Claviceps fusiformis in pearl millet. The pathogen infects unfertilized ovaries. A1 cytoplasm in male-sterile hybrids increases ergot severity, though nuclear genetic factors also influence resistance.') }}
+                    </p>
+                    <a href="https://www.mdpi.com/2072-6651/7/3/659" class="source-link" target="_blank">{{ _('Read Full Study') }}</a>
+                    <div class="author">
+                        <div class="author-avatar">MD</div>
+                        <div class="author-info">
+                            <div class="author-name">{{ _('Multiple Authors') }}</div>
+                            <div>{{ _('MDPI Toxins Journal') }}</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">📊</div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">{{ _('Variety Screening') }}</span>
+                        <span>📅 2023-24</span>
+                        <span>🌾 {{ _('Cultivar Analysis') }}</span>
+                    </div>
+                    <h3 class="post-title">{{ _('Disease Incidence Across Pearl Millet Varieties') }}</h3>
+                    <p class="post-excerpt">
+                        {{ _('Field evaluations showed varying ergot susceptibility: Local varieties (16.33%%), Mahodya318 (15%%), NHB-4 (13.20%%), ABH1200fe (11.20%%), Samrudhi (7.75%%), and Pioneer 86M38 (8.04%% - best resistance).') }}
+                    </p>
+                    <a href="https://www.biochemjournal.com/archives/2024.v8.i12.N.3356/survey-of-ergot-disease-of-pearl-millet-caused-by-claviceps-fusiformis-loveless-in-marathwada-region-district-of-chh-sambhaji-nagar-mh" class="source-link" target="_blank">{{ _('View Research Data') }}</a>
+                    <div class="author">
+                        <div class="author-avatar">RR</div>
+                        <div class="author-info">
+                            <div class="author-name">{{ _('Rathod et al.') }}</div>
+                            <div>{{ _('Field Survey Team') }}</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">🛡️</div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">{{ _('Disease Control') }}</span>
+                        <span>📅 {{ _('Ongoing Research') }}</span>
+                        <span>🎯 {{ _('Integrated Approach') }}</span>
+                    </div>
+                    <h3 class="post-title">{{ _('Integrated Control Strategies') }}</h3>
+                    <p class="post-excerpt">
+                        {{ _('Effective ergot management combines host-plant resistance, cultural practices, and timely interventions. Resistant cultivars offer the most economical and sustainable control. Screening focuses on nuclear genetic factors for durable protection.') }}
+                    </p>
+                    <a href="https://oar.icrisat.org/957/" class="source-link" target="_blank">{{ _('ICRISAT Guidelines') }}</a>
+                    <div class="author">
+                        <div class="author-avatar">IC</div>
+                        <div class="author-info">
+                            <div class="author-name">{{ _('ICRISAT Research Team') }}</div>
+                            <div>{{ _('Crop Protection Division') }}</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="blog-post">
+                <div class="post-image">🌍</div>
+                <div class="post-content">
+                    <div class="post-meta">
+                        <span class="post-category">{{ _('Geographic Distribution') }}</span>
+                        <span>📅 {{ _('Current Status') }}</span>
+                        <span>🗺️ {{ _('Regional Impact') }}</span>
+                    </div>
+                    <h3 class="post-title">{{ _('Global Distribution and Economic Impact') }}</h3>
+                    <p class="post-excerpt">
+                        {{ _('Claviceps fusiformis threatens pearl millet across Africa and Asia, particularly F1 hybrids in India. Toxic sclerotia cause yield losses and render produce unsafe for consumption, creating food security concerns in affected regions.') }}
+                    </p>
+                    <a href="https://www.cabidigitallibrary.org/doi/10.1079/cabicompendium.13788" class="source-link" target="_blank">{{ _('CABI Database') }}</a>
+                    <div class="author">
+                        <div class="author-avatar">CB</div>
+                        <div class="author-info">
+                            <div class="author-name">{{ _('CABI Research') }}</div>
+                            <div>{{ _('Plant Health Database') }}</div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+     
+{% include 'footer.html' %}
+</body>
+
+
+
+</html>
