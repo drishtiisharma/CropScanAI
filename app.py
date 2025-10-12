@@ -4,41 +4,56 @@ import cv2
 import numpy as np
 import os
 from flask_babel import Babel
+import gdown   # 🔹 for downloading model from Google Drive
 
-# creates the flask app instance and tells where the html and static files are
+# ---------------------- FLASK SETUP ----------------------
+
 app = Flask(
     __name__,
     template_folder="templates",
     static_folder="static"
 )
 
-# adding configurations to the flask app 
-app.config['SECRET_KEY'] = 'a-very-secret-key-for-sessions' # flask uses this to secure sessions so the data stored between requests is safe 
-app.config['LANGUAGES'] = {'en': 'English', 'hi': 'हिन्दी'} # which languages are supported
+app.config['SECRET_KEY'] = 'a-very-secret-key-for-sessions'
+app.config['LANGUAGES'] = {'en': 'English', 'hi': 'हिन्दी'}
 
+# ---------------------- LANGUAGE SETUP ----------------------
 
-# defines your language selection function normally
 def get_locale():
-    # Get the language from the session, default language is English
     return session.get('language', 'en')
 
-# tells flask-babel to use get_locale function every time it needs to decide what language to display.
 babel = Babel(app, locale_selector=get_locale)
-# --- END OF CORRECTION ---
 
-# this route handles the actual language switch
-# saves user's choice in session and redirects to the requested page
 @app.route('/language/<language>')
 def set_language(language=None):
     session['language'] = language
     return redirect(request.referrer)
 
+# ---------------------- MODEL SETUP ----------------------
 
-# loads the trained keras model
 MODEL_PATH = "pearl_millet_ergot_model.h5"
-model = load_model(MODEL_PATH)
+# 🔹 Replace this with your actual Google Drive file ID
+DRIVE_FILE_ID = "1ROzdGKtSsI-IRjElc8fxVDe0BBpSx_6m
+"
 
-# image processing
+def ensure_model():
+    """Downloads the model if not already available locally."""
+    if not os.path.exists(MODEL_PATH):
+        print("⏬ Model not found locally. Downloading from Google Drive...")
+        url = f"https://drive.google.com/uc?id={DRIVE_FILE_ID}"
+        gdown.download(url, MODEL_PATH, quiet=False)
+        print("✅ Model downloaded successfully!")
+
+# Ensure model is available before starting
+ensure_model()
+
+# Load the trained Keras model
+print("📦 Loading model...")
+model = load_model(MODEL_PATH)
+print("✅ Model loaded successfully!")
+
+# ---------------------- IMAGE PROCESSING ----------------------
+
 def preprocess_image(image_path):
     img = cv2.imread(image_path)
     img = cv2.resize(img, (224, 224))
@@ -46,8 +61,8 @@ def preprocess_image(image_path):
     img = np.expand_dims(img, axis=0)
     return img
 
+# ---------------------- ROUTES ----------------------
 
-# routes for different pages
 @app.route("/")
 def home():
     return render_template("index.html")
@@ -90,8 +105,8 @@ def ergot_detected():
         filename=session.get('filename')
     )
 
-# prediction route
-# is the heart of the app
+# ---------------------- PREDICTION LOGIC ----------------------
+
 @app.route("/predict", methods=["POST"])
 def predict():
     if "file" not in request.files:
@@ -105,7 +120,7 @@ def predict():
 
     img = preprocess_image(file_path)
     pred = model.predict(img)[0][0]
-    
+
     session['filename'] = file.filename
     session['confidence'] = round(float(pred) * 100, 2)
 
@@ -116,7 +131,7 @@ def predict():
         session['result'] = 'Diseased: Ergot'
         return redirect(url_for('ergot_detected'))
 
-# -------------------- RUN APP --------------------
+# ---------------------- RUN APP ----------------------
 
 if __name__ == "__main__":
     app.run(debug=True)

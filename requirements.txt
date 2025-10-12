@@ -1,6 +1,7 @@
 Flask
-tensorflow==2.13.0
+tensorflow
 opencv-python
 numpy
-matplotlib
-pillow
+Flask-Babel
+gdown
+gunicorn
