@@ -34,7 +34,6 @@ def set_language(language=None):
 MODEL_PATH = "pearl_millet_ergot_model.h5"
 # 🔹 Replace this with your actual Google Drive file ID
 DRIVE_FILE_ID = "1ROzdGKtSsI-IRjElc8fxVDe0BBpSx_6m"
-"
 
 def ensure_model():
     """Downloads the model if not already available locally."""
