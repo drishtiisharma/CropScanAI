@@ -55,7 +55,7 @@ print("📦 Loading model...")
 model = load_model(MODEL_PATH)
 print("✅ Model loaded successfully!")
 '''
-MODEL_URL = "https://huggingface.co/drishtiisharma/pearl_millet_ergot_model/resolve/main/pearl_millet_ergot_model.h5"
+MODEL_URL = "https://huggingface.co/drishtiisharma/pearl_millet_ergot_model/raw/main/pearl_millet_ergot_model.h5"
 
 def load_remote_model():
     """Downloads and loads the model from Hugging Face directly into memory."""
