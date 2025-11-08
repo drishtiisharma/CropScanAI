@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CropScanAI - Contact Us</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/contact.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
+  <link rel="icon" type="image/x-icon" href="static/logo3.png">
+</head>
+<body>
+    {% include 'banner.html' %}
+
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1>{{ _('Contact Us') }}</h1>
+        <p>{{ _('Have questions or feedback? We\'d love to hear from you. Send us a message and we\'ll respond as soon as possible.') }}</p>
+      </div>
+    </div>
+
+    <section class="contact-container">
+      <div class="contact-card">
+        <div class="contact-header">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h2>{{ _('Send us a Message') }}</h2>
+          <p>{{ _('Fill out the form below and our team will get back to you shortly.') }}</p>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">
+              <i class="fas fa-user"></i>
+              {{ _('Name') }}
+            </label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              placeholder="{{ _('Enter your full name') }}" 
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">
+              <i class="fas fa-envelope"></i>
+              {{ _('Email') }}
+            </label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              placeholder="{{ _('Enter your email address') }}" 
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">
+              <i class="fas fa-comment-dots"></i>
+              {{ _('Message') }}
+            </label>
+            <textarea 
+              id="message" 
+              name="message" 
+              rows="6" 
+              placeholder="{{ _('Type your message here...') }}" 
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i>
+            {{ _('Send Message') }}
+          </button>
+        </form>
+
+        <div class="success-message" id="successMessage">
+          <i class="fas fa-check-circle"></i>
+          <p>{{ _('Message sent successfully! We\'ll get back to you soon.') }}</p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const form = document.getElementById('contactForm');
+      const successMessage = document.getElementById('successMessage');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        // Show success message
+        successMessage.style.display = 'flex';
+        form.style.display = 'none';
+        
+        // Reset form after 3 seconds and hide success message
+        setTimeout(() => {
+          form.reset();
+          successMessage.style.display = 'none';
+          form.style.display = 'block';
+        }, 3000);
+      });
+    </script>
+
+    {% include 'footer.html' %}
+</body>
+</html>

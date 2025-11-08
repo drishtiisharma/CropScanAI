@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CropScanAI - Scan your Millet for Ergot</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/faq.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
+<link rel="icon" type="image/x-icon" href="static/logo3.png">
+
+</head>
+<body>
+    {% include 'banner.html' %}
+
+    <div class="hero-section">
+    <div class="hero-content">
+      <h1>{{ _('FAQ (Frequently Asked Questions)') }}</h1>
+      <p>{{ _('Quick answers to your biggest questions about detecting and preventing ergot in pearl millet.') }}</p>
+    </div>
+  </div>
+
+  <section class="faq-container">
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-exclamation-circle"></i>
+          </div>
+          <h3>{{ _('What is ergot and why is it harmful?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('Ergot is a fungal disease that affects cereal crops like pearl millet. It produces toxic alkaloids that can cause serious health problems if consumed, including convulsions, hallucinations, and even death in severe cases.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>{{ _('How does this tool detect ergot?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('Our tool uses advanced AI image recognition trained on thousands of images of healthy and ergot-infected millet. It analyzes the visual characteristics of your uploaded images to identify potential ergot contamination.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>{{ _('What should I do if ergot is detected?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('Separate and safely dispose of infected grains. Do not mix them with healthy ones.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-ban"></i>
+          </div>
+          <h3>{{ _('Can ergot-infected grains be consumed or sold?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('No. They are toxic and unsafe for food, feed, or sale.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-seedling"></i>
+          </div>
+          <h3>{{ _('How can I prevent ergot infection in the future?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('Use clean seeds, rotate crops, and harvest on time. Avoid planting in infected soil.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+          <h3>{{ _('What kind of images should I upload for detection?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('Upload clear, close-up photos of the millet grains in good lighting.') }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <div class="faq-question-content">
+          <div class="faq-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>{{ _('Is this tool free and who can use it?') }}</h3>
+        </div>
+        <i class="fas fa-chevron-down faq-chevron"></i>
+      </div>
+      <div class="faq-answer">
+        <div class="faq-answer-content">
+          <p>{{ _('Yes. Anyone can use it for free to check their millet for ergot.') }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      
+      question.addEventListener('click', () => {
+        const isActive = item.classList.contains('active');
+        
+        faqItems.forEach(i => i.classList.remove('active'));
+        
+        if (!isActive) {
+          item.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+      {% include 'footer.html' %}
+</body>
+</html>
