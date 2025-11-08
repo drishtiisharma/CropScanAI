@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ _("About Ergot") }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/about_ergot.css') }}">
+<link rel="icon" type="image/x-icon" href="static/logo3.png">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}"/>
+
+
+</head>
+<body>
+    
+  {% include 'base.html' %}
+
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1>{{ _("Ergot Disease: Comprehensive Guide") }}</h1>
+      <p>{{ _("A detailed overview of ergot fungus (Claviceps purpurea), its impact on cereal crops, health implications, and evidence-based management strategies for agricultural professionals.") }}</p>
+    </div>
+  </div>
+
+  <div class="container">
+    
+    <!-- Overview Section -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-book-open"></i>
+        <h2>{{ _("Disease Overview") }}</h2>
+      </div>
+      
+      <div class="full-width-card">
+        <div class="image-content">
+          <div class="image-wrapper">
+            <img src="https://plantvillage-production-new.s3.amazonaws.com/image/62773/file/default-a803c3a647a97a4fbf59d5e449fb53d9.png" alt="{{ _('Ergot infected grain') }}">
+          </div>
+          <div class="text-content">
+            <h3>{{ _("Understanding Ergot") }}</h3>
+            <p>{{ _("Ergot is a serious fungal disease caused by <em>Claviceps purpurea</em> and related species. The fungus infects the flowers of cereals and grasses, replacing developing grains with dark, elongated structures called sclerotia. These sclerotia contain toxic alkaloids that pose significant risks to human and animal health.") }}</p>
+            <p>{{ _("The disease has been documented throughout history, responsible for numerous epidemics of ergotism in humans and livestock. Modern agricultural practices and regulatory standards have significantly reduced these risks, though ergot remains an important concern in crop production.") }}</p>
+            <p><strong>{{ _("Primary hosts:") }}</strong> {{ _("Rye, wheat, barley, oats, triticale, and various wild and cultivated grasses including pearl millet.") }}</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="content-card">
+          <h3><i class="fas fa-microscope"></i> {{ _("Scientific Classification") }}</h3>
+          <p><strong>{{ _("Kingdom:") }}</strong> {{ _("Fungi") }}<br>
+          <strong>{{ _("Phylum:") }}</strong> {{ _("Ascomycota") }}<br>
+          <strong>{{ _("Class:") }}</strong> {{ _("Sordariomycetes") }}<br>
+          <strong>{{ _("Order:") }}</strong> {{ _("Hypocreales") }}<br>
+          <strong>{{ _("Family:") }}</strong> {{ _("Clavicipitaceae") }}<br>
+          <strong>{{ _("Genus:") }}</strong> {{ _("Claviceps") }}</p>
+        </div>
+        
+        <div class="content-card">
+          <h3><i class="fas fa-map-marked-alt"></i> {{ _("Geographic Distribution") }}</h3>
+          <p>{{ _("Ergot occurs worldwide in temperate and subtropical regions. Most prevalent in areas with cool, moist conditions during the flowering period of susceptible crops. Major concerns exist in Europe, North America, parts of Asia, and temperate regions of South America and Africa.") }}</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Disease Cycle Section -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-sync-alt"></i>
+        <h2>{{ _("Disease Cycle & Infection Process") }}</h2>
+      </div>
+
+      <div class="full-width-card">
+        <div class="image-content">
+          <div class="text-content">
+            <h3>{{ _("Infection Mechanism") }}</h3>
+            <p>{{ _("Ergot follows a dual reproductive cycle. Sclerotia survive in soil or grain, germinate in spring, and release ascospores that infect flowers.") }}</p>
+            <ul>
+              <li><i class="fas fa-arrow-right"></i><strong>{{ _("Primary infection:") }}</strong> {{ _("Wind-borne ascospores infect stigmas of open flowers.") }}</li>
+              <li><i class="fas fa-arrow-right"></i><strong>{{ _("Honeydew stage:") }}</strong> {{ _("Infected florets ooze sugary liquid containing conidia.") }}</li>
+              <li><i class="fas fa-arrow-right"></i><strong>{{ _("Secondary spread:") }}</strong> {{ _("Conidia spread via insects, rain, or contact.") }}</li>
+              <li><i class="fas fa-arrow-right"></i><strong>{{ _("Sclerotial stage:") }}</strong> {{ _("Ovaries turn into dark, hard sclerotia.") }}</li>
+              <li><i class="fas fa-arrow-right"></i><strong>{{ _("Overwintering:") }}</strong> {{ _("Sclerotia persist in soil and germinate next season.") }}</li>
+            </ul>
+          </div>
+          <div class="image-wrapper">
+            <img src="https://www.mdpi.com/toxins/toxins-07-00659/article_deploy/html/images/toxins-07-00659-g001.png" alt="{{ _('Fungal lifecycle') }}">
+          </div>
+        </div>
+      </div>
+
+      <section>
+        <div class="stages-grid">
+          
+          <div class="stage-card">
+            <div class="stage-number">1</div>
+            <h4>{{ _("Early Stage: Honeydew") }}</h4>
+            <div class="stage-image">
+              <img src="https://cropwatch.unl.edu/sites/unl.edu.ianr.extension.cropwatch/files/media/image/Sphaecelia.jpg" alt="{{ _('Honeydew stage of ergot') }}">
+            </div>
+            <p>{{ _("Infected florets exude sweet, sticky honeydew containing conidia. This stage is critical for disease spread through insects and splashing rain.") }}</p>
+          </div>
+
+          <div class="stage-card">
+            <div class="stage-number">2</div>
+            <h4>{{ _("Mid Stage: Sclerotia Development") }}</h4>
+            <div class="stage-image">
+              <img src="https://www.cabidigitallibrary.org/cms/10.1079/cabicompendium.13788/asset/9bd24c1c-0c2c-4866-b3a4-b0b8bc74c952/assets/graphic/pemill12.jpg" alt="{{ _('Developing sclerotia on cereal heads') }}">
+            </div>
+            <p>{{ _("Honeydew production ceases as the fungus begins forming sclerotia. Purple-black fungal tissue becomes visible, gradually hardening.") }}</p>
+          </div>
+
+          <div class="stage-card">
+            <div class="stage-number">3</div>
+            <h4>{{ _("Late Stage: Mature Sclerotia") }}</h4>
+            <div class="stage-image">
+              <img src="https://www.cabidigitallibrary.org/cms/10.1079/cabicompendium.13788/asset/3513a014-2374-4fd0-8244-3c9210fc154e/assets/graphic/clavfu02.jpeg" alt="{{ _('Mature sclerotia replacing grains') }}">
+            </div>
+            <p>{{ _("Hard, dark sclerotia fully replace the grain. These structures contain concentrated alkaloids and fall to the ground or are harvested with grain.") }}</p>
+          </div>
+
+        </div>
+      </section>
+    </section>
+
+    <!-- Environmental Conditions -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-cloud-rain"></i>
+        <h2>{{ _("Favorable Environmental Conditions") }}</h2>
+      </div>
+
+      <div class="info-list">
+        <div class="info-item">
+          <i class="fas fa-temperature-low info-item-icon"></i>
+          <div class="info-item-content">
+            <h4>{{ _("Temperature Requirements") }}</h4>
+            <p>{{ _("Optimal development occurs at 15-20 degrees Celsius (59-68 degrees Fahrenheit). Cool temperatures during flowering significantly increase infection rates. Temperatures above 28 degrees Celsius (82 degrees Fahrenheit) generally suppress disease development.") }}
+
+</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-tint info-item-icon"></i>
+          <div class="info-item-content">
+            <h4>{{ _("Moisture & Humidity") }}</h4>
+            <p>{{ _("High humidity (greater than 70%%) and frequent rainfall or dew during flowering promote spore germination and honeydew production. Extended wet periods coinciding with anthesis create ideal infection conditions.") }}</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-leaf info-item-icon"></i>
+          <div class="info-item-content">
+            <h4>{{ _("Host Susceptibility") }}</h4>
+            <p>{{ _("Open-pollinated crops (especially rye) are most susceptible. Hybrid varieties with better floret closure show reduced infection. Prolonged flowering periods increase exposure to inoculum.") }}</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-seedling info-item-icon"></i>
+          <div class="info-item-content">
+            <h4>{{ _("Crop Management Factors") }}</h4>
+            <p>{{ _("Dense canopies with poor air circulation, excessive nitrogen fertilization promoting late flowering, and proximity to contaminated fields or wild grass hosts increase disease risk.") }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Health Impact Section -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-exclamation-triangle"></i>
+        <h2>{{ _("Health & Economic Impacts") }}</h2>
+      </div>
+
+      <div class="danger-grid">
+        <div class="danger-card">
+          <h4><i class="fas fa-user-injured"></i> {{ _("Human Health") }}</h4>
+          <p>{{ _("Consumption of ergot-contaminated grain causes ergotism, presenting in two forms:") }}</p>
+          <ul>
+            <li>{{ _("Gangrenous ergotism: vasoconstriction leading to gangrene, blackened extremities") }}</li>
+            <li>{{ _("Convulsive ergotism: neurological symptoms including seizures, hallucinations, psychosis") }}</li>
+            <li>{{ _("Chronic effects: reproductive problems, immune suppression") }}</li>
+            <li>{{ _("Historical epidemics: St. Anthony Fire in medieval Europe") }}</li>
+          </ul>
+        </div>
+        
+        <div class="danger-card">
+          <h4><i class="fas fa-paw"></i> {{ _("Livestock Impact") }}</h4>
+          <p>{{ _("Ergot alkaloids severely affect grazing animals and livestock fed contaminated feed:") }}</p>
+          <ul>
+            <li>{{ _("Reduced feed intake and weight loss") }}</li>
+            <li>{{ _("Reproductive failures: abortions, reduced fertility, agalactia") }}</li>
+            <li>{{ _("Gangrene of extremities (tail, ears, hooves)") }}</li>
+            <li>{{ _("Hyperthermia and heat stress intolerance") }}</li>
+            <li>{{ _("Death in severe cases") }}</li>
+          </ul>
+        </div>
+        
+        <div class="danger-card">
+          <h4><i class="fas fa-chart-line"></i> {{ _("Economic Consequences") }}</h4>
+          <p>{{ _("Ergot contamination has substantial economic implications:") }}</p>
+          <ul>
+            <li>{{ _("Grain rejection at greater than 0.05%% contamination (EU standard)") }}</li>
+            <li>{{ _("Price penalties for contaminated lots") }}</li>
+            <li>{{ _("Complete loss of feed and food value") }}</li>
+            <li>{{ _("Cleaning and sorting costs") }}</li>
+            <li>{{ _("Market access restrictions") }}</li>
+            <li>{{ _("Reduced crop yields") }}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Symptoms Section -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-search"></i>
+        <h2>{{ _("Identification & Symptoms") }}</h2>
+      </div>
+
+      <div class="full-width-card">
+        <h3>{{ _("Field Recognition") }}</h3>
+        <div class="info-list">
+          <div class="info-item">
+            <i class="fas fa-eye info-item-icon"></i>
+            <div class="info-item-content">
+              <h4>{{ _("Early Detection Signs") }}</h4>
+              <p>{{ _("Look for glistening honeydew droplets on flowers during anthesis. The sticky substance may attract insects and may have a slightly sweet odor. Individual florets appear discolored or damaged.") }}</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-circle info-item-icon"></i>
+            <div class="info-item-content">
+              <h4>{{ _("Mature Sclerotia Characteristics") }}</h4>
+              <p>{{ _("Sclerotia are dark purple to black, hard, elongated structures (5-50mm long) protruding from heads. They are significantly larger than normal grain, curved or horn-shaped, and have a rough exterior surface.") }}</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-globe info-item-icon"></i>
+            <div class="info-item-content">
+              <h4>{{ _("Distribution Patterns") }}</h4>
+              <p>{{ _("Infection typically appears scattered throughout fields but may be concentrated in low-lying areas with poor drainage, field edges near wild grasses, or areas with extended flowering due to uneven maturity.") }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Management Section -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-tasks"></i>
+        <h2>{{ _("Integrated Management Strategies") }}</h2>
+      </div>
+
+      <div class="prevention-grid">
+        <div class="prevention-card">
+          <h4><i class="fas fa-tractor"></i> {{ _("Cultural Practices") }}</h4>
+          <ul>
+            <li>{{ _("Deep plowing to bury sclerotia (greater than 10cm depth)") }}</li>
+            <li>{{ _("Crop rotation with non-susceptible crops") }}</li>
+            <li>{{ _("Delayed planting to avoid high-risk flowering periods") }}</li>
+            <li>{{ _("Mow wild grass hosts near fields before flowering") }}</li>
+            <li>{{ _("Ensure uniform crop maturity through proper spacing") }}</li>
+            <li>{{ _("Avoid excessive nitrogen late in season") }}</li>
+          </ul>
+        </div>
+        
+        <div class="prevention-card">
+          <h4><i class="fas fa-shield-alt"></i> {{ _("Resistant Varieties") }}</h4>
+          <ul>
+            <li>{{ _("Use hybrid varieties with better floret closure") }}</li>
+            <li>{{ _("Select varieties with shorter flowering periods") }}</li>
+            <li>{{ _("Choose cultivars bred for ergot resistance") }}</li>
+            <li>{{ _("Consider male-sterile lines carefully (higher risk)") }}</li>
+            <li>{{ _("Maintain variety purity to ensure uniform flowering") }}</li>
+          </ul>
+        </div>
+        
+        <div class="prevention-card">
+          <h4><i class="fas fa-spray-can"></i> {{ _("Chemical Control") }}</h4>
+          <ul>
+            <li>{{ _("Fungicide application at early flowering (10%% anthesis)") }}</li>
+            <li>{{ _("Repeat applications during extended flowering") }}</li>
+            <li>{{ _("Products: azoxystrobin, prothioconazole, tebuconazole") }}</li>
+            <li>{{ _("Timing is critical - preventive rather than curative") }}</li>
+            <li>{{ _("Monitor weather forecasts for high-risk periods") }}</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="prevention-grid" style="margin-top: 2rem;">
+        <div class="prevention-card">
+          <h4><i class="fas fa-certificate"></i> {{ _("Seed & Grain Management") }}</h4>
+          <ul>
+            <li>{{ _("Use certified, ergot-free seed") }}</li>
+            <li>{{ _("Clean harvesting equipment between fields") }}</li>
+            <li>{{ _("Segregate contaminated lots immediately") }}</li>
+            <li>{{ _("Test grain for ergot content before storage/sale") }}</li>
+            <li>{{ _("Never use contaminated grain for seed") }}</li>
+          </ul>
+        </div>
+        
+        <div class="prevention-card">
+          <h4><i class="fas fa-cogs"></i> {{ _("Mechanical Cleaning") }}</h4>
+          <ul>
+            <li>{{ _("Size-based separation (sclerotia larger than grain)") }}</li>
+            <li>{{ _("Gravity tables exploit density differences") }}</li>
+            <li>{{ _("Color sorting technology for large operations") }}</li>
+            <li>{{ _("Multiple cleaning passes for thorough removal") }}</li>
+            <li>{{ _("Regular equipment calibration and maintenance") }}</li>
+          </ul>
+        </div>
+        
+        <div class="prevention-card">
+          <h4><i class="fas fa-clipboard-check"></i> {{ _("Monitoring & Scouting") }}</h4>
+          <ul>
+            <li>{{ _("Scout fields weekly during flowering") }}</li>
+            <li>{{ _("Record infection levels and locations") }}</li>
+            <li>{{ _("Monitor wild grass hosts in field margins") }}</li>
+            <li>{{ _("Track weather conditions during critical periods") }}</li>
+            <li>{{ _("Maintain field history records") }}</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Regulatory Standards -->
+    <section class="section">
+      <div class="section-header">
+        <i class="fas fa-balance-scale"></i>
+        <h2>{{ _("Regulatory Standards & Tolerances — Pearl Millet Ergot") }}</h2>
+      </div>
+
+      <div class="stats-banner">
+        <div class="stat-item">
+          <h3>0.02%</h3>
+          <p>{{ _("Seed Certification Limit (India)") }}</p>
+        </div>
+        <div class="stat-item">
+          <h3>0.05%</h3>
+          <p>{{ _("FAO/WHO Recommended Maximum") }}</p>
+        </div>
+        <div class="stat-item">
+          <h3>0.10%</h3>
+          <p>{{ _("Food Grain Tolerance") }}</p>
+        </div>
+        <div class="stat-item">
+          <h3>0.30%</h3>
+          <p>{{ _("Feed Grade Maximum") }}</p>
+        </div>
+      </div>
+
+      <div class="full-width-card">
+        <h3>{{ _("Testing & Compliance") }}</h3>
+        <p>{{ _("Regular testing of grain lots is essential for compliance with food safety regulations. Standard methods include visual inspection, flotation tests, and laboratory analysis for alkaloid content. Testing should occur at harvest, during storage, and before market delivery. Documentation of test results is critical for traceability and liability management.") }}</p>
+      </div>
+    </section>
+
+  </div>
+{% include 'footer.html' %}
+</body>
+</html>
