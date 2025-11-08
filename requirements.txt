@@ -1,9 +1,0 @@
-Flask
-tensorflow
-opencv-python
-numpy
-Flask-Babel
-gdown
-gunicorn
-joblib
-requests
