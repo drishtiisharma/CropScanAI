@@ -2,11 +2,9 @@
 title: CropScanAI
 emoji: 🌾
 colorFrom: green
-colorTo: blue
-sdk: docker
+colorTo: yellow
+sdk: gradio
+sdk_version: "4.44.0"
 app_file: app.py
 pinned: false
 ---
-
-# CropScanAI 🌱
-ML-powered crop disease detection web app built with Flask and deployed via Hugging Face Spaces.
