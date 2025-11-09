@@ -39,13 +39,13 @@ import os
 from tensorflow.keras.models import load_model
 
 MODEL_PATH = "pearl_millet_ergot_model.h5"
-DRIVE_FILE_ID = "1ROzdGKtSsI-IRjElc8fxVDe0BBpSx_6m"
+DRIVE_FILE_ID = "1lzwncCGFtwmWSOsZwRVbZICEcPs1y0sI"
+MODEL_URL = f"https://drive.google.com/uc?id={DRIVE_FILE_ID}"
 
 def load_remote_model():
     """Download and load the model from Google Drive."""
     print("⏬ Downloading model from Google Drive...")
-    url = f"https://drive.google.com/uc?id={1lzwncCGFtwmWSOsZwRVbZICEcPs1y0sI}"
-    gdown.download(url, MODEL_PATH, quiet=False)
+    gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
     print("📦 Loading model into memory...")
     model = load_model(MODEL_PATH)
     print("✅ Model loaded successfully!")
