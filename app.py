@@ -34,40 +34,23 @@ def set_language(language=None):
     return redirect(request.referrer)
 
 # ---------------------- MODEL SETUP ----------------------
-'''
+import gdown
+import os
+from tensorflow.keras.models import load_model
+
 MODEL_PATH = "pearl_millet_ergot_model.h5"
-# 🔹 Replace this with your actual Google Drive file ID
 DRIVE_FILE_ID = "1ROzdGKtSsI-IRjElc8fxVDe0BBpSx_6m"
-def ensure_model():
-    """Downloads the model if not already available locally."""
-    if not os.path.exists(MODEL_PATH):
-        print("⏬ Model not found locally. Downloading from Google Drive...")
-        url = f"https://drive.google.com/uc?id={DRIVE_FILE_ID}"
-        gdown.download(url, MODEL_PATH, quiet=False)
-        print("✅ Model downloaded successfully!")
-# Ensure model is available before starting
-ensure_model()
-# Load the trained Keras model
-print("📦 Loading model...")
-model = load_model(MODEL_PATH)
-print("✅ Model loaded successfully!")
-'''
-MODEL_URL = "https://huggingface.co/drishtiisharma/pearl_millet_ergot_model/raw/main/pearl_millet_ergot_model.h5"
 
 def load_remote_model():
-    """Downloads and loads the model from Hugging Face directly into memory."""
-    print("📥 Downloading model from Hugging Face...")
-    response = requests.get(MODEL_URL)
-    if response.status_code != 200:
-        raise Exception(f"Failed to download model: {response.status_code}")
-    with open("model_temp.h5", "wb") as f:
-        f.write(response.content)
+    """Download and load the model from Google Drive."""
+    print("⏬ Downloading model from Google Drive...")
+    url = f"https://drive.google.com/uc?id={1lzwncCGFtwmWSOsZwRVbZICEcPs1y0sI}"
+    gdown.download(url, MODEL_PATH, quiet=False)
     print("📦 Loading model into memory...")
-    model = load_model("model_temp.h5")
+    model = load_model(MODEL_PATH)
     print("✅ Model loaded successfully!")
     return model
 
-model = load_remote_model()
 
 
 # ---------------------- IMAGE PROCESSING ----------------------
@@ -136,8 +119,16 @@ def predict():
     file_path = os.path.join(upload_dir, file.filename)
     file.save(file_path)
 
+    # Load model on demand
+    model = load_remote_model()
+
     img = preprocess_image(file_path)
     pred = model.predict(img)[0][0]
+
+    # Free memory — delete model file and object
+    del model
+    if os.path.exists(MODEL_PATH):
+        os.remove(MODEL_PATH)
 
     session['filename'] = file.filename
     session['confidence'] = round(float(pred) * 100, 2)
