@@ -1,0 +1,2088 @@
+# Hindi translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-10-12 10:31+0530\n"
+"PO-Revision-Date: 2025-10-06 19:16+0530\n"
+"Last-Translator: Gemini AI\n"
+"Language: hi\n"
+"Language-Team: hi <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: templates/about_ergot.html:6
+msgid "About Ergot"
+msgstr "एरगॉट के बारे में"
+
+#: templates/about_ergot.html:20
+msgid "Ergot Disease: Comprehensive Guide"
+msgstr "एरगॉट रोग: व्यापक मार्गदर्शिका"
+
+#: templates/about_ergot.html:21
+msgid ""
+"A detailed overview of ergot fungus (Claviceps purpurea), its impact on "
+"cereal crops, health implications, and evidence-based management "
+"strategies for agricultural professionals."
+msgstr ""
+"एरगॉट फंगस (Claviceps purpurea) का विस्तृत अवलोकन, इसके अनाज की फसलों पर "
+"प्रभाव, स्वास्थ्य पर असर और कृषि विशेषज्ञों के लिए प्रमाण-आधारित प्रबंधन "
+"रणनीतियाँ।"
+
+#: templates/about_ergot.html:31
+msgid "Disease Overview"
+msgstr "रोग का अवलोकन"
+
+#: templates/about_ergot.html:37
+#, fuzzy
+msgid "Ergot infected grain"
+msgstr "अरगट संक्रमण"
+
+#: templates/about_ergot.html:40
+msgid "Understanding Ergot"
+msgstr "एरगॉट को समझना"
+
+#: templates/about_ergot.html:41
+msgid ""
+"Ergot is a serious fungal disease caused by <em>Claviceps purpurea</em> "
+"and related species. The fungus infects the flowers of cereals and "
+"grasses, replacing developing grains with dark, elongated structures "
+"called sclerotia. These sclerotia contain toxic alkaloids that pose "
+"significant risks to human and animal health."
+msgstr ""
+"एरगॉट एक गंभीर फंगल रोग है जो <em>Claviceps purpurea</em> और संबंधित "
+"प्रजातियों द्वारा उत्पन्न होता है। यह फंगस अनाज और घास के फूलों को "
+"संक्रमित करता है और विकसित हो रहे दानों की जगह काले, लम्बे ढांचे "
+"(स्क्लेरोटिया) से भर देता है। ये स्क्लेरोटिया जहरीले अल्कलॉइड्स रखते हैं,"
+" जो मानव और पशु स्वास्थ्य के लिए गंभीर खतरे पैदा करते हैं।"
+
+#: templates/about_ergot.html:42
+msgid ""
+"The disease has been documented throughout history, responsible for "
+"numerous epidemics of ergotism in humans and livestock. Modern "
+"agricultural practices and regulatory standards have significantly "
+"reduced these risks, though ergot remains an important concern in crop "
+"production."
+msgstr ""
+"इस रोग का इतिहास में कई दस्तावेज हैं, और यह मानव और पशु में एरगॉटिज़्म के"
+" कई महामारी प्रकरणों के लिए जिम्मेदार रहा है। आधुनिक कृषि प्रथाओं और "
+"नियामक मानकों ने इन जोखिमों को काफी कम कर दिया है, हालांकि एरगॉट अभी भी "
+"फसल उत्पादन में एक महत्वपूर्ण चिंता बना हुआ है।"
+
+#: templates/about_ergot.html:43
+msgid "Primary hosts:"
+msgstr "मुख्य मेज़बान:"
+
+#: templates/about_ergot.html:43
+msgid ""
+"Rye, wheat, barley, oats, triticale, and various wild and cultivated "
+"grasses including pearl millet."
+msgstr ""
+"राई, गेहूँ, जौ, जई, ट्रिटिकेल, और विभिन्न जंगली व खेती की घासें, जिसमें "
+"मोती बाजरा भी शामिल है।"
+
+#: templates/about_ergot.html:50
+msgid "Scientific Classification"
+msgstr "वैज्ञानिक वर्गीकरण"
+
+#: templates/about_ergot.html:51
+msgid "Kingdom:"
+msgstr "राज्य:"
+
+#: templates/about_ergot.html:51
+msgid "Fungi"
+msgstr "फफूंदी"
+
+#: templates/about_ergot.html:52
+msgid "Phylum:"
+msgstr "फायलम:"
+
+#: templates/about_ergot.html:52
+msgid "Ascomycota"
+msgstr "एस्कोमिकोटा"
+
+#: templates/about_ergot.html:53
+msgid "Class:"
+msgstr "वर्ग:"
+
+#: templates/about_ergot.html:53
+msgid "Sordariomycetes"
+msgstr "सॉर्डेरियोमाइसेट्स"
+
+#: templates/about_ergot.html:54
+msgid "Order:"
+msgstr "क्रम:"
+
+#: templates/about_ergot.html:54
+msgid "Hypocreales"
+msgstr "हाइपोक्रियल्स"
+
+#: templates/about_ergot.html:55
+msgid "Family:"
+msgstr "कुल:"
+
+#: templates/about_ergot.html:55
+msgid "Clavicipitaceae"
+msgstr "क्लाविसिपिटेसियाई"
+
+#: templates/about_ergot.html:56
+msgid "Genus:"
+msgstr "जीनस:"
+
+#: templates/about_ergot.html:56
+msgid "Claviceps"
+msgstr "क्लाविसेप्स"
+
+#: templates/about_ergot.html:60
+msgid "Geographic Distribution"
+msgstr "भौगोलिक वितरण"
+
+#: templates/about_ergot.html:61
+msgid ""
+"Ergot occurs worldwide in temperate and subtropical regions. Most "
+"prevalent in areas with cool, moist conditions during the flowering "
+"period of susceptible crops. Major concerns exist in Europe, North "
+"America, parts of Asia, and temperate regions of South America and "
+"Africa."
+msgstr ""
+"एरगॉट दुनिया भर के समशीतोष्ण और उपोष्णकटिबंधीय क्षेत्रों में पाया जाता "
+"है। यह सबसे अधिक उन क्षेत्रों में फैलता है जहाँ संवेदनशील फसलों के फूलने "
+"के दौरान ठंडी और नमी वाली स्थिति रहती है। यूरोप, उत्तरी अमेरिका, एशिया के"
+" कुछ हिस्सों और दक्षिण अमेरिका व अफ्रीका के समशीतोष्ण क्षेत्रों में "
+"प्रमुख चिंता का विषय है।"
+
+#: templates/about_ergot.html:70
+msgid "Disease Cycle & Infection Process"
+msgstr "रोग चक्र और संक्रमण प्रक्रिया"
+
+#: templates/about_ergot.html:76
+msgid "Infection Mechanism"
+msgstr "संक्रमण तंत्र"
+
+#: templates/about_ergot.html:77
+msgid ""
+"Ergot follows a dual reproductive cycle. Sclerotia survive in soil or "
+"grain, germinate in spring, and release ascospores that infect flowers."
+msgstr ""
+"एरगॉट दोहरी प्रजनन चक्र का पालन करता है। स्क्लेरोटिया मिट्टी या अनाज में "
+"जीवित रहते हैं, वसंत में अंकुरित होते हैं और ऐसेकस्पोर्स छोड़ते हैं जो "
+"फूलों को संक्रमित करते हैं।"
+
+#: templates/about_ergot.html:79
+msgid "Primary infection:"
+msgstr "प्राथमिक संक्रमण:"
+
+#: templates/about_ergot.html:79
+msgid "Wind-borne ascospores infect stigmas of open flowers."
+msgstr "हवा से आने वाले ऐसेकस्पोर्स खुले फूलों के स्तिग्मा को संक्रमित करते हैं।"
+
+#: templates/about_ergot.html:80
+msgid "Honeydew stage:"
+msgstr "हनीड्यू अवस्था:"
+
+#: templates/about_ergot.html:80
+msgid "Infected florets ooze sugary liquid containing conidia."
+msgstr "संक्रमित फूलों से शर्करा युक्त तरल निकलता है, जिसमें कोनिडिया होते हैं।"
+
+#: templates/about_ergot.html:81
+msgid "Secondary spread:"
+msgstr "माध्यमिक प्रसार:"
+
+#: templates/about_ergot.html:81
+msgid "Conidia spread via insects, rain, or contact."
+msgstr "कोनिडिया कीट, बारिश या संपर्क के माध्यम से फैलते हैं।"
+
+#: templates/about_ergot.html:82
+msgid "Sclerotial stage:"
+msgstr "स्क्लेरोटियल अवस्था:"
+
+#: templates/about_ergot.html:82
+msgid "Ovaries turn into dark, hard sclerotia."
+msgstr "अंडाशय काले और कठोर स्क्लेरोटिया में बदल जाते हैं।"
+
+#: templates/about_ergot.html:83
+msgid "Overwintering:"
+msgstr "सर्दियों में जीवित रहना:"
+
+#: templates/about_ergot.html:83
+msgid "Sclerotia persist in soil and germinate next season."
+msgstr "स्क्लेरोटिया मिट्टी में बने रहते हैं और अगले मौसम में अंकुरित होते हैं।"
+
+#: templates/about_ergot.html:87
+msgid "Fungal lifecycle"
+msgstr ""
+
+#: templates/about_ergot.html:97
+msgid "Early Stage: Honeydew"
+msgstr "प्रारंभिक अवस्था: हनीड्यू"
+
+#: templates/about_ergot.html:99
+#, fuzzy
+msgid "Honeydew stage of ergot"
+msgstr "हनीड्यू अवस्था:"
+
+#: templates/about_ergot.html:101
+msgid ""
+"Infected florets exude sweet, sticky honeydew containing conidia. This "
+"stage is critical for disease spread through insects and splashing rain."
+msgstr ""
+"संक्रमित फूलों से मीठा, चिपचिपा हनीड्यू निकलता है जिसमें कोनिडिया होते "
+"हैं। कीटों और छिटकती बारिश के माध्यम से रोग फैलने के लिए यह अवस्था "
+"महत्वपूर्ण है।"
+
+#: templates/about_ergot.html:106
+msgid "Mid Stage: Sclerotia Development"
+msgstr "मध्य अवस्था: स्क्लेरोटिया विकास"
+
+#: templates/about_ergot.html:108
+msgid "Developing sclerotia on cereal heads"
+msgstr ""
+
+#: templates/about_ergot.html:110
+msgid ""
+"Honeydew production ceases as the fungus begins forming sclerotia. "
+"Purple-black fungal tissue becomes visible, gradually hardening."
+msgstr ""
+"जैसे ही फंगस स्क्लेरोटिया बनाना शुरू करता है, हनीड्यू उत्पादन बंद हो जाता"
+" है। बैंगनी-काले फंगस ऊतक दिखाई देने लगते हैं और धीरे-धीरे कठोर हो जाते "
+"हैं।"
+
+#: templates/about_ergot.html:115
+msgid "Late Stage: Mature Sclerotia"
+msgstr "अंतिम अवस्था: परिपक्व स्क्लेरोटिया"
+
+#: templates/about_ergot.html:117
+#, fuzzy
+msgid "Mature sclerotia replacing grains"
+msgstr "परिपक्व स्क्लेरोटिया की विशेषताएँ"
+
+#: templates/about_ergot.html:119
+msgid ""
+"Hard, dark sclerotia fully replace the grain. These structures contain "
+"concentrated alkaloids and fall to the ground or are harvested with "
+"grain."
+msgstr ""
+"कठोर, काले स्क्लेरोटिया पूरी तरह से अनाज की जगह ले लेते हैं। ये संरचनाएँ "
+"संकेंद्रित अल्कलॉइड्स रखती हैं और जमीन पर गिर जाती हैं या अनाज के साथ "
+"काटी जाती हैं।"
+
+#: templates/about_ergot.html:130
+msgid "Favorable Environmental Conditions"
+msgstr "अनुकूल पर्यावरणीय परिस्थितियाँ"
+
+#: templates/about_ergot.html:137
+msgid "Temperature Requirements"
+msgstr "तापमान आवश्यकताएँ"
+
+#: templates/about_ergot.html:138
+msgid ""
+"Optimal development occurs at 15-20 degrees Celsius (59-68 degrees "
+"Fahrenheit). Cool temperatures during flowering significantly increase "
+"infection rates. Temperatures above 28 degrees Celsius (82 degrees "
+"Fahrenheit) generally suppress disease development."
+msgstr ""
+"अनुकूल विकास 15-20°C (59-68°F) पर होता है। फूलने के दौरान ठंडे तापमान से "
+"संक्रमण बढ़ता है, जबकि 28°C (82°F) से ऊपर इसे रोकता है।"
+
+#: templates/about_ergot.html:146
+msgid "Moisture & Humidity"
+msgstr "नमी और आर्द्रता"
+
+#: templates/about_ergot.html:147
+#, python-format
+msgid ""
+"High humidity (greater than 70%%) and frequent rainfall or dew during "
+"flowering promote spore germination and honeydew production. Extended wet"
+" periods coinciding with anthesis create ideal infection conditions."
+msgstr ""
+"फूलने के दौरान उच्च आर्द्रता (>70%%) और लगातार वर्षा या ओस स्पोर अंकुरण "
+"और हनीड्यू उत्पादन को बढ़ावा देते हैं। फूलने की अवधि के साथ लंबी गीली "
+"स्थिति आदर्श संक्रमण परिस्थितियाँ बनाती है।"
+
+#: templates/about_ergot.html:153
+msgid "Host Susceptibility"
+msgstr "मेज़बान संवेदनशीलता"
+
+#: templates/about_ergot.html:154
+msgid ""
+"Open-pollinated crops (especially rye) are most susceptible. Hybrid "
+"varieties with better floret closure show reduced infection. Prolonged "
+"flowering periods increase exposure to inoculum."
+msgstr ""
+"खुले परागण वाली फसलें (विशेष रूप से राई) सबसे संवेदनशील होती हैं। बेहतर "
+"फूल बंद करने वाली हाइब्रिड किस्मों में संक्रमण कम होता है। लंबे फूलने की "
+"अवधि संक्रमण के संपर्क को बढ़ाती है।"
+
+#: templates/about_ergot.html:160
+msgid "Crop Management Factors"
+msgstr "फसल प्रबंधन कारक"
+
+#: templates/about_ergot.html:161
+msgid ""
+"Dense canopies with poor air circulation, excessive nitrogen "
+"fertilization promoting late flowering, and proximity to contaminated "
+"fields or wild grass hosts increase disease risk."
+msgstr ""
+"घने कंपी और खराब वायु संचरण, अत्यधिक नाइट्रोजन उर्वरक जो देर से फूलने को "
+"बढ़ावा देते हैं, और दूषित खेतों या जंगली घास के मेजबान के पास होने से रोग"
+" का खतरा बढ़ जाता है।"
+
+#: templates/about_ergot.html:171
+msgid "Health & Economic Impacts"
+msgstr "स्वास्थ्य और आर्थिक प्रभाव"
+
+#: templates/about_ergot.html:176
+msgid "Human Health"
+msgstr "मानव स्वास्थ्य"
+
+#: templates/about_ergot.html:177
+msgid ""
+"Consumption of ergot-contaminated grain causes ergotism, presenting in "
+"two forms:"
+msgstr ""
+"एरगॉट से दूषित अनाज का सेवन एरगॉटिज़्म का कारण बनता है, जो दो रूपों में "
+"प्रकट होता है:"
+
+#: templates/about_ergot.html:179
+msgid ""
+"Gangrenous ergotism: vasoconstriction leading to gangrene, blackened "
+"extremities"
+msgstr ""
+"गैंग्रीनस एरगॉटिज़्म: रक्त वाहिकाओं का संकुचन, जिससे गैंग्रीन और अंगों का"
+" काला होना"
+
+#: templates/about_ergot.html:180
+msgid ""
+"Convulsive ergotism: neurological symptoms including seizures, "
+"hallucinations, psychosis"
+msgstr ""
+"कंपकंपी वाला एरगॉटिज़्म: तंत्रिका संबंधी लक्षण, जैसे दौरे, भ्रम और मानसिक"
+" रोग"
+
+#: templates/about_ergot.html:181
+msgid "Chronic effects: reproductive problems, immune suppression"
+msgstr "दीर्घकालिक प्रभाव: प्रजनन समस्याएँ, प्रतिरक्षा प्रणाली में कमजोरी"
+
+#: templates/about_ergot.html:182
+msgid "Historical epidemics: St. Anthony Fire in medieval Europe"
+msgstr "ऐतिहासिक महामारियाँ: मध्यकालीन यूरोप में सेंट एंथनी का अग्नि रोग"
+
+#: templates/about_ergot.html:187
+msgid "Livestock Impact"
+msgstr "पशुधन पर प्रभाव"
+
+#: templates/about_ergot.html:188
+msgid ""
+"Ergot alkaloids severely affect grazing animals and livestock fed "
+"contaminated feed:"
+msgstr ""
+"एरगॉट अल्कलॉइड्स चरने वाले जानवरों और दूषित चारे पर पोषित पशुधन को गंभीर "
+"रूप से प्रभावित करते हैं:"
+
+#: templates/about_ergot.html:190
+msgid "Reduced feed intake and weight loss"
+msgstr "चारे का कम सेवन और वजन घटाव"
+
+#: templates/about_ergot.html:191
+msgid "Reproductive failures: abortions, reduced fertility, agalactia"
+msgstr "प्रजनन विफलताएँ: गर्भपात, प्रजनन क्षमता में कमी, दूध उत्पादन में कमी"
+
+#: templates/about_ergot.html:192
+msgid "Gangrene of extremities (tail, ears, hooves)"
+msgstr "अंगों में गैंग्रीन (पूंछ, कान, खुर)"
+
+#: templates/about_ergot.html:193
+msgid "Hyperthermia and heat stress intolerance"
+msgstr "अत्यधिक ताप और गर्मी सहनशीलता में कमी"
+
+#: templates/about_ergot.html:194
+msgid "Death in severe cases"
+msgstr "गंभीर मामलों में मृत्यु"
+
+#: templates/about_ergot.html:199
+msgid "Economic Consequences"
+msgstr "आर्थिक परिणाम"
+
+#: templates/about_ergot.html:200
+msgid "Ergot contamination has substantial economic implications:"
+msgstr "एरगॉट दूषण के गंभीर आर्थिक परिणाम होते हैं:"
+
+#: templates/about_ergot.html:202
+#, python-format
+msgid "Grain rejection at greater than 0.05%% contamination (EU standard)"
+msgstr "0.05%% से अधिक दूषण पर अनाज अस्वीकार (EU मानक)"
+
+#: templates/about_ergot.html:203
+msgid "Price penalties for contaminated lots"
+msgstr "दूषित खेपों के लिए मूल्य दंड"
+
+#: templates/about_ergot.html:204
+msgid "Complete loss of feed and food value"
+msgstr "चारे और खाद्य मूल्य की पूरी हानि"
+
+#: templates/about_ergot.html:205
+msgid "Cleaning and sorting costs"
+msgstr "सफाई और छंटाई की लागत"
+
+#: templates/about_ergot.html:206
+msgid "Market access restrictions"
+msgstr "बाजार तक पहुँच में प्रतिबंध"
+
+#: templates/about_ergot.html:207
+msgid "Reduced crop yields"
+msgstr "फसल की पैदावार में कमी"
+
+#: templates/about_ergot.html:217
+msgid "Identification & Symptoms"
+msgstr "पहचान और लक्षण"
+
+#: templates/about_ergot.html:221
+msgid "Field Recognition"
+msgstr "क्षेत्र में पहचान"
+
+#: templates/about_ergot.html:226
+msgid "Early Detection Signs"
+msgstr "प्रारंभिक पहचान के संकेत"
+
+#: templates/about_ergot.html:227
+msgid ""
+"Look for glistening honeydew droplets on flowers during anthesis. The "
+"sticky substance may attract insects and may have a slightly sweet odor. "
+"Individual florets appear discolored or damaged."
+msgstr ""
+"फूलने के दौरान फूलों पर चमकती हनीड्यू बूँदों को देखें। यह चिपचिपा पदार्थ "
+"कीटों को आकर्षित कर सकता है और इसमें हल्की मीठी गंध हो सकती है। व्यक्तिगत"
+" फूल रंग बदलने या क्षतिग्रस्त दिखाई देते हैं।"
+
+#: templates/about_ergot.html:233
+msgid "Mature Sclerotia Characteristics"
+msgstr "परिपक्व स्क्लेरोटिया की विशेषताएँ"
+
+#: templates/about_ergot.html:234
+msgid ""
+"Sclerotia are dark purple to black, hard, elongated structures (5-50mm "
+"long) protruding from heads. They are significantly larger than normal "
+"grain, curved or horn-shaped, and have a rough exterior surface."
+msgstr ""
+"स्क्लेरोटिया गहरे बैंगनी से काले, कठोर, लंबी संरचनाएँ (5-50 मिमी लंबी) "
+"होती हैं, जो सिरों से बाहर निकलती हैं। ये सामान्य अनाज से काफी बड़ी, "
+"मुड़ी हुई या सींग जैसी होती हैं और बाहरी सतह खुरदरी होती है।"
+
+#: templates/about_ergot.html:240
+msgid "Distribution Patterns"
+msgstr "वितरण के पैटर्न"
+
+#: templates/about_ergot.html:241
+msgid ""
+"Infection typically appears scattered throughout fields but may be "
+"concentrated in low-lying areas with poor drainage, field edges near wild"
+" grasses, or areas with extended flowering due to uneven maturity."
+msgstr ""
+"संक्रमण आमतौर पर खेतों में बिखरा हुआ दिखाई देता है, लेकिन यह खराब जल "
+"निकासी वाले नीची जगहों, जंगली घास के पास के खेत किनारों, या असमान "
+"परिपक्वता के कारण लंबी फूलने वाली जगहों में केंद्रित हो सकता है।"
+
+#: templates/about_ergot.html:252
+msgid "Integrated Management Strategies"
+msgstr "संपूर्ण प्रबंधन रणनीतियाँ"
+
+#: templates/about_ergot.html:257
+msgid "Cultural Practices"
+msgstr "सांस्कृतिक प्रथाएँ"
+
+#: templates/about_ergot.html:259
+msgid "Deep plowing to bury sclerotia (greater than 10cm depth)"
+msgstr "स्क्लेरोटिया को दबाने के लिए गहरी जुताई (>10 सेमी गहराई)"
+
+#: templates/about_ergot.html:260
+msgid "Crop rotation with non-susceptible crops"
+msgstr "असंवेदनशील फसलों के साथ फसल चक्र"
+
+#: templates/about_ergot.html:261
+msgid "Delayed planting to avoid high-risk flowering periods"
+msgstr "उच्च जोखिम वाले फूलने की अवधि से बचने के लिए बुवाई में देरी"
+
+#: templates/about_ergot.html:262
+msgid "Mow wild grass hosts near fields before flowering"
+msgstr "फूलने से पहले खेतों के पास जंगली घास मेज़बानों को काटें"
+
+#: templates/about_ergot.html:263
+msgid "Ensure uniform crop maturity through proper spacing"
+msgstr "सही दूरी बनाए रखकर फसल की समान परिपक्वता सुनिश्चित करें"
+
+#: templates/about_ergot.html:264
+msgid "Avoid excessive nitrogen late in season"
+msgstr "मौसम के अंत में अत्यधिक नाइट्रोजन से बचें"
+
+#: templates/about_ergot.html:269
+msgid "Resistant Varieties"
+msgstr "प्रतिरोधी किस्में"
+
+#: templates/about_ergot.html:271
+msgid "Use hybrid varieties with better floret closure"
+msgstr "बेहतर फूल बंद करने वाली हाइब्रिड किस्मों का उपयोग करें"
+
+#: templates/about_ergot.html:272
+msgid "Select varieties with shorter flowering periods"
+msgstr "छोटी फूलने वाली अवधि वाली किस्मों का चयन करें"
+
+#: templates/about_ergot.html:273
+msgid "Choose cultivars bred for ergot resistance"
+msgstr "एरगॉट प्रतिरोधी के लिए उत्पन्न किए गए कल्टीवर्स का चयन करें"
+
+#: templates/about_ergot.html:274
+msgid "Consider male-sterile lines carefully (higher risk)"
+msgstr "मेल-स्टेराइल लाइनों पर सावधानीपूर्वक विचार करें (उच्च जोखिम)"
+
+#: templates/about_ergot.html:275
+msgid "Maintain variety purity to ensure uniform flowering"
+msgstr "समान फूलने के लिए किस्म की शुद्धता बनाए रखें"
+
+#: templates/about_ergot.html:280
+msgid "Chemical Control"
+msgstr "रासायनिक नियंत्रण"
+
+#: templates/about_ergot.html:282
+#, python-format
+msgid "Fungicide application at early flowering (10%% anthesis)"
+msgstr "प्रारंभिक फूलने (10%% फूल खुलने) पर कवकनाशी का छिड़काव"
+
+#: templates/about_ergot.html:283
+msgid "Repeat applications during extended flowering"
+msgstr "लंबे फूलने के दौरान पुनः छिड़काव करें"
+
+#: templates/about_ergot.html:284
+msgid "Products: azoxystrobin, prothioconazole, tebuconazole"
+msgstr "उत्पाद: एज़ोक्सिस्ट्रोबिन, प्रोथिओकोनाज़ोल, तेबुकोनाज़ोल"
+
+#: templates/about_ergot.html:285
+msgid "Timing is critical - preventive rather than curative"
+msgstr "समय महत्वपूर्ण है - उपचारात्मक नहीं बल्कि रोकथाम पर ध्यान दें"
+
+#: templates/about_ergot.html:286
+msgid "Monitor weather forecasts for high-risk periods"
+msgstr "उच्च जोखिम वाली अवधि के लिए मौसम पूर्वानुमान की निगरानी करें"
+
+#: templates/about_ergot.html:293
+msgid "Seed & Grain Management"
+msgstr "बीज और अनाज प्रबंधन"
+
+#: templates/about_ergot.html:295
+msgid "Use certified, ergot-free seed"
+msgstr "प्रमाणित, एरगॉट-मुक्त बीज का उपयोग करें"
+
+#: templates/about_ergot.html:296
+msgid "Clean harvesting equipment between fields"
+msgstr "खेतों के बीच कटाई उपकरण साफ करें"
+
+#: templates/about_ergot.html:297
+msgid "Segregate contaminated lots immediately"
+msgstr "दूषित खेपों को तुरंत अलग करें"
+
+#: templates/about_ergot.html:298
+msgid "Test grain for ergot content before storage/sale"
+msgstr "भंडारण/विक्रय से पहले अनाज में एरगॉट सामग्री की जांच करें"
+
+#: templates/about_ergot.html:299
+msgid "Never use contaminated grain for seed"
+msgstr "दूषित अनाज को बीज के लिए कभी न उपयोग करें"
+
+#: templates/about_ergot.html:304
+msgid "Mechanical Cleaning"
+msgstr "यांत्रिक सफाई"
+
+#: templates/about_ergot.html:306
+msgid "Size-based separation (sclerotia larger than grain)"
+msgstr "आकार आधारित पृथक्करण (स्क्लेरोटिया अनाज से बड़े)"
+
+#: templates/about_ergot.html:307
+msgid "Gravity tables exploit density differences"
+msgstr "गुरुत्वाकर्षण तालिकाएँ घनत्व के अंतर का उपयोग करती हैं"
+
+#: templates/about_ergot.html:308
+msgid "Color sorting technology for large operations"
+msgstr "बड़ी इकाइयों के लिए रंग छंटाई प्रौद्योगिकी"
+
+#: templates/about_ergot.html:309
+msgid "Multiple cleaning passes for thorough removal"
+msgstr "पूर्ण सफाई के लिए कई बार सफाई करना"
+
+#: templates/about_ergot.html:310
+msgid "Regular equipment calibration and maintenance"
+msgstr "नियमित उपकरण कैलिब्रेशन और रखरखाव"
+
+#: templates/about_ergot.html:315
+msgid "Monitoring & Scouting"
+msgstr "निगरानी और निरीक्षण"
+
+#: templates/about_ergot.html:317
+msgid "Scout fields weekly during flowering"
+msgstr "फूलने के दौरान खेतों का साप्ताहिक निरीक्षण करें"
+
+#: templates/about_ergot.html:318
+msgid "Record infection levels and locations"
+msgstr "संक्रमण स्तर और स्थान दर्ज करें"
+
+#: templates/about_ergot.html:319
+msgid "Monitor wild grass hosts in field margins"
+msgstr "खेत की किनारी पर जंगली घास मेज़बानों की निगरानी करें"
+
+#: templates/about_ergot.html:320
+msgid "Track weather conditions during critical periods"
+msgstr "महत्वपूर्ण अवधि के दौरान मौसम की स्थितियों पर नज़र रखें"
+
+#: templates/about_ergot.html:321
+msgid "Maintain field history records"
+msgstr "खेत के इतिहास के रिकॉर्ड बनाए रखें"
+
+#: templates/about_ergot.html:331
+msgid "Regulatory Standards & Tolerances — Pearl Millet Ergot"
+msgstr "नियामक मानक और सहिष्णुता — मोती बाजरा एरगॉट"
+
+#: templates/about_ergot.html:337
+msgid "Seed Certification Limit (India)"
+msgstr "बीज प्रमाणीकरण सीमा (भारत)"
+
+#: templates/about_ergot.html:341
+msgid "FAO/WHO Recommended Maximum"
+msgstr "FAO/WHO द्वारा सुझाया गया अधिकतम"
+
+#: templates/about_ergot.html:345
+msgid "Food Grain Tolerance"
+msgstr "खाद्य अनाज सहिष्णुता"
+
+#: templates/about_ergot.html:349
+msgid "Feed Grade Maximum"
+msgstr "चारे की श्रेणी अधिकतम"
+
+#: templates/about_ergot.html:354
+msgid "Testing & Compliance"
+msgstr "परीक्षण और अनुपालन"
+
+#: templates/about_ergot.html:355
+msgid ""
+"Regular testing of grain lots is essential for compliance with food "
+"safety regulations. Standard methods include visual inspection, flotation"
+" tests, and laboratory analysis for alkaloid content. Testing should "
+"occur at harvest, during storage, and before market delivery. "
+"Documentation of test results is critical for traceability and liability "
+"management."
+msgstr ""
+"अनाज की खेपों का नियमित परीक्षण खाद्य सुरक्षा नियमों के अनुपालन के लिए "
+"आवश्यक है। मानक विधियों में दृश्य निरीक्षण, फ्लोटेशन परीक्षण और अल्कलॉइड "
+"सामग्री के लिए प्रयोगशाला विश्लेषण शामिल हैं। परीक्षण फसल कटाई, भंडारण के"
+" दौरान और बाजार में वितरण से पहले होना चाहिए। परीक्षण परिणामों का "
+"दस्तावेजीकरण पहचान और जिम्मेदारी प्रबंधन के लिए महत्वपूर्ण है।"
+
+#: templates/footer.html:4
+msgid "About Us"
+msgstr "हमारे बारे में"
+
+#: templates/footer.html:5
+msgid ""
+"CropScanAI focuses on detecting Ergot infection in Pearl Millet crops "
+"using modern technology."
+msgstr ""
+"क्रॉपस्कैनएआई आधुनिक तकनीक का उपयोग करके बाजरे की फसलों में अरगट संक्रमण "
+"का पता लगाने पर ध्यान केंद्रित करता है।"
+
+#: templates/footer.html:6
+msgid ""
+"Our goal is to help farmers identify infected crops early, reduce losses,"
+" and ensure healthier harvests through a simple, reliable web-based tool."
+msgstr ""
+"हमारा लक्ष्य किसानों को एक सरल, विश्वसनीय वेब-आधारित उपकरण के माध्यम से "
+"संक्रमित फसलों की शीघ्र पहचान करने, नुकसान कम करने और स्वस्थ फसल "
+"सुनिश्चित करने में मदद करना है।"
+
+#: templates/footer.html:10
+msgid "Quick Links"
+msgstr "त्वरित लिंक"
+
+#: templates/footer.html:12
+msgid "Home"
+msgstr "होम"
+
+#: templates/footer.html:13
+msgid "About"
+msgstr "हमारे बारे में"
+
+#: templates/footer.html:14
+msgid "Services"
+msgstr "सेवाएं"
+
+#: templates/footer.html:15
+msgid "Contact"
+msgstr "संपर्क करें"
+
+#: templates/footer.html:16
+msgid "Blog"
+msgstr "ब्लॉग"
+
+#: templates/footer.html:21
+msgid "Contact Info"
+msgstr "संपर्क जानकारी"
+
+#: templates/footer.html:23
+msgid "123 Main Street"
+msgstr "123 मुख्य सड़क"
+
+#: templates/footer.html:23
+msgid "City, State 12345"
+msgstr "शहर, राज्य 12345"
+
+#: templates/footer.html:24
+msgid "Phone:"
+msgstr "फ़ोन:"
+
+#: templates/footer.html:25
+msgid "Email:"
+msgstr "ईमेल:"
+
+#: templates/footer.html:30
+msgid "Follow Us"
+msgstr "हमें फॉलो करें"
+
+#: templates/footer.html:38
+msgid "Subscribe to our newsletter"
+msgstr "हमारे न्यूज़लेटर की सदस्यता लें"
+
+#: templates/footer.html:41
+msgid "Your email"
+msgstr "आपका ईमेल"
+
+#: templates/footer.html:42
+msgid "Subscribe"
+msgstr "सब्सक्राइब करें"
+
+#: templates/footer.html:49
+msgid "All Rights Reserved."
+msgstr "सर्वाधिकार सुरक्षित।"
+
+#: templates/footer.html:51
+msgid "Privacy Policy"
+msgstr "गोपनीयता नीति"
+
+#: templates/footer.html:52
+msgid "Terms of Service"
+msgstr "सेवा की शर्तें"
+
+#: templates/identify.html:6
+msgid "CropScanAI- Scan your Millet for Ergot"
+msgstr "क्रॉपस्कैनएआई - अपने बाजरे को अरगट के लिए स्कैन करें"
+
+#: templates/identify.html:46
+msgid "Identify Ergot in Your Millet"
+msgstr "अपने बाजरे में अरगट की पहचान करें"
+
+#: templates/identify.html:47
+msgid "Scan. Detect. Protect."
+msgstr "स्कैन करें। पता लगाएं। सुरक्षित रखें।"
+
+#: templates/identify.html:53
+msgid "Identify and prevent"
+msgstr "पहचानें और रोकें"
+
+#: templates/identify.html:54
+msgid "ergot infection"
+msgstr "अरगट संक्रमण"
+
+#: templates/identify.html:54
+
+msgid "in millet"
+msgstr "बाजरे में"
+
+#: templates/identify.html:58
+msgid "Worried about your millet's safety? Use our tool to detect ergot instantly and get prevention tips in seconds."
+msgstr "क्या आप अपने बाजरे की सुरक्षा को लेकर चिंतित हैं? अरगट का तुरंत पता लगाने और सेकंडों में रोकथाम के टिप्स पाने के लिए हमारे टूल का उपयोग करें।"
+
+
+#: templates/identify.html:82
+msgid "Select Image"
+msgstr "छवि चुनें"
+
+#: templates/identify.html:87
+msgid "Check for Ergot"
+msgstr "अरगट के लिए जाँच करें"
+
+#: templates/identify.html:111
+msgid "Infected Millet"
+msgstr "संक्रमित बाजरा"
+
+#: templates/identify.html:113
+msgid "Ergot fungus detected with high confidence"
+msgstr "उच्च सटीकता के साथ अरगट कवक का पता चला"
+
+#: templates/identify.html:115
+msgid "View Tips"
+msgstr "टिप्स देखें"
+
+#: templates/identify.html:142
+msgid "Selected:"
+msgstr "चयनित:"
+
+#~ msgid "Ergot Detected - CropScanAI"
+#~ msgstr "अरगट का पता चला - क्रॉपस्कैनएआई"
+
+#~ msgid "Ergot Detected in Your Sample"
+#~ msgstr "आपके नमूने में अरगट का पता चला"
+
+#~ msgid ""
+#~ "Our AI analysis has detected signs "
+#~ "of ergot infection in your pearl "
+#~ "millet sample. Please review the results"
+#~ " below and take appropriate action."
+#~ msgstr ""
+#~ "हमारे एआई विश्लेषण ने आपके बाजरे "
+#~ "के नमूने में अरगट संक्रमण के संकेत"
+#~ " पाए हैं। कृपया नीचे दिए गए "
+#~ "परिणामों की समीक्षा करें और उचित "
+#~ "कार्रवाई करें।"
+
+#~ msgid "Detection Confidence:"
+#~ msgstr "पहचान की सटीकता:"
+
+#~ msgid "Your Uploaded Image"
+#~ msgstr "आपकी अपलोड की गई छवि"
+
+#~ msgid "Infected Areas Highlighted"
+#~ msgstr "संक्रमित क्षेत्रों को हाइलाइट किया गया"
+
+#~ msgid "Recommended Next Steps"
+#~ msgstr "अनुशंसित अगले कदम"
+
+#~ msgid "Isolate the infected crops to prevent further spread"
+#~ msgstr "आगे फैलने से रोकने के लिए संक्रमित फसलों को अलग करें"
+
+#~ msgid ""
+#~ "Consider using appropriate fungicides as "
+#~ "recommended by agricultural experts"
+#~ msgstr ""
+#~ "कृषि विशेषज्ञों द्वारा अनुशंसित उपयुक्त "
+#~ "कवकनाशी का उपयोग करने पर विचार "
+#~ "करें"
+
+#~ msgid "Adjust planting density to improve air circulation"
+#~ msgstr "हवा के संचार में सुधार के लिए रोपण घनत्व को समायोजित करें"
+
+#~ msgid "Practice crop rotation to break the disease cycle"
+#~ msgstr "रोग चक्र को तोड़ने के लिए फसल चक्र का अभ्यास करें"
+
+#~ msgid ""
+#~ "Consult with local agricultural extension "
+#~ "services for specific guidance"
+#~ msgstr "विशिष्ट मार्गदर्शन के लिए स्थानीय कृषि विस्तार सेवाओं से परामर्श करें"
+
+#~ msgid "Scan Another Image"
+#~ msgstr "दूसरी छवि स्कैन करें"
+
+#~ msgid "Learn More About Ergot"
+#~ msgstr "अरगट के बारे में और जानें"
+
+#~ msgid "Print This Report"
+#~ msgstr "यह रिपोर्ट प्रिंट करें"
+
+#~ msgid "FAQ(Frequently Asked Questions)"
+#~ msgstr "अक्सर पूछे जाने वाले प्रश्न (FAQ)"
+
+#~ msgid ""
+#~ "Quick answers to your biggest questions"
+#~ " about detecting and preventing ergot "
+#~ "in pearl millet."
+#~ msgstr ""
+#~ "बाजरे में अरगट का पता लगाने और "
+#~ "रोकने के बारे में आपके सबसे बड़े"
+#~ " सवालों के त्वरित उत्तर।"
+
+#~ msgid "What is ergot and why is it harmful?"
+#~ msgstr "अरगट क्या है और यह हानिकारक क्यों है?"
+
+#~ msgid ""
+#~ "Ergot is a fungal disease that "
+#~ "affects cereal crops like pearl millet."
+#~ " It produces toxic alkaloids that can"
+#~ " cause serious health problems if "
+#~ "consumed, including convulsions, hallucinations, "
+#~ "and even death in severe cases."
+#~ msgstr ""
+#~ "अरगट एक फंगल रोग है जो बाजरा "
+#~ "जैसी अनाज की फसलों को प्रभावित "
+#~ "करता है। यह जहरीले अल्कलॉइड पैदा "
+#~ "करता है जो सेवन करने पर गंभीर "
+#~ "स्वास्थ्य समस्याएं पैदा कर सकता है, "
+#~ "जिसमें ऐंठन, मतिभ्रम और गंभीर मामलों "
+#~ "में मृत्यु भी शामिल है।"
+
+#~ msgid "How does this tool detect ergot?"
+#~ msgstr "यह उपकरण अरगट का पता कैसे लगाता है?"
+
+#~ msgid ""
+#~ "Our tool uses advanced AI image "
+#~ "recognition trained on thousands of "
+#~ "images of healthy and ergot-infected "
+#~ "millet. It analyzes the visual "
+#~ "characteristics of your uploaded images "
+#~ "to identify potential ergot contamination."
+#~ msgstr ""
+#~ "हमारा उपकरण उन्नत एआई छवि पहचान का"
+#~ " उपयोग करता है जिसे स्वस्थ और "
+#~ "अरगट-संक्रमित बाजरे की हजारों छवियों पर"
+#~ " प्रशिक्षित किया गया है। यह संभावित"
+#~ " अरगट संदूषण की पहचान करने के "
+#~ "लिए आपकी अपलोड की गई छवियों की "
+#~ "दृश्य विशेषताओं का विश्लेषण करता है।"
+
+#~ msgid "What should I do if ergot is detected?"
+#~ msgstr "यदि अरगट का पता चलता है तो मुझे क्या करना चाहिए?"
+
+#~ msgid ""
+#~ "Separate and safely dispose of infected"
+#~ " grains. Do not mix them with "
+#~ "healthy ones."
+#~ msgstr ""
+#~ "संक्रमित दानों को अलग करें और "
+#~ "सुरक्षित रूप से निपटाएं। उन्हें स्वस्थ"
+#~ " दानों के साथ न मिलाएं।"
+
+#~ msgid "Can ergot-infected grains be consumed or sold?"
+#~ msgstr "क्या अरगट-संक्रमित अनाज का सेवन या बिक्री की जा सकती है?"
+
+#~ msgid "No. They are toxic and unsafe for food, feed, or sale."
+#~ msgstr "नहीं। वे भोजन, चारे या बिक्री के लिए जहरीले और असुरक्षित हैं।"
+
+#~ msgid "How can I prevent ergot infection in the future?"
+#~ msgstr "मैं भविष्य में अरगट संक्रमण को कैसे रोक सकता हूँ?"
+
+#~ msgid ""
+#~ "Use clean seeds, rotate crops, and "
+#~ "harvest on time. Avoid planting in "
+#~ "infected soil."
+#~ msgstr ""
+#~ "साफ बीजों का उपयोग करें, फसलें "
+#~ "बदलें, और समय पर कटाई करें। "
+#~ "संक्रमित मिट्टी में रोपण से बचें।"
+
+#~ msgid "What kind of images should I upload for detection?"
+#~ msgstr "पहचान के लिए मुझे किस तरह की छवियाँ अपलोड करनी चाहिए?"
+
+#~ msgid "Upload clear, close-up photos of the millet grains in good lighting."
+#~ msgstr "अच्छी रोशनी में बाजरे के दानों की स्पष्ट, क्लोज-अप तस्वीरें अपलोड करें।"
+
+#~ msgid "Is this tool free and who can use it?"
+#~ msgstr "क्या यह उपकरण मुफ़्त है और इसका उपयोग कौन कर सकता है?"
+
+#~ msgid "Yes. Anyone can use it for free to check their millet for ergot."
+#~ msgstr ""
+#~ "हाँ। कोई भी अपने बाजरे में अरगट"
+#~ " की जांच के लिए इसका मुफ्त में"
+#~ " उपयोग कर सकता है।"
+
+#~ msgid "AI Powered Crop Protection"
+#~ msgstr "एआई संचालित फसल सुरक्षा"
+
+#~ msgid "Pearl Millet Ergot"
+#~ msgstr "बाजरा अरगट"
+
+#~ msgid "Disease Detection"
+#~ msgstr "रोग पहचान"
+
+#~ msgid "System"
+#~ msgstr "प्रणाली"
+
+#~ msgid ""
+#~ "Advanced AI-powered detection for early"
+#~ " identification and treatment of ergot "
+#~ "disease in pearl millet crops"
+#~ msgstr ""
+#~ "बाजरे की फसलों में अरगट रोग की "
+#~ "शीघ्र पहचान और उपचार के लिए उन्नत"
+#~ " एआई-संचालित पहचान"
+
+#~ msgid "Get Started"
+#~ msgstr "शुरू करें"
+
+#~ msgid "Learn More"
+#~ msgstr " और जानें"
+
+#~ msgid "Your Complete Crop Protection Toolkit"
+#~ msgstr "आपकी पूरी फसल सुरक्षा टूलकिट"
+
+#~ msgid ""
+#~ "Our comprehensive system provides everything"
+#~ " you need to detect, diagnose, and"
+#~ " treat ergot disease in pearl millet"
+#~ " crops."
+#~ msgstr ""
+#~ "हमारी व्यापक प्रणाली बाजरे की फसलों "
+#~ "में अरगट रोग का पता लगाने, निदान"
+#~ " करने और उसका इलाज करने के लिए"
+#~ " आवश्यक सब कुछ प्रदान करती है।"
+
+#~ msgid "Image Analysis"
+#~ msgstr "छवि विश्लेषण"
+
+#~ msgid "Upload crop images for instant AI-powered disease detection"
+#~ msgstr "तत्काल एआई-संचालित रोग का पता लगाने के लिए फसल की छवियां अपलोड करें"
+
+#~ msgid "Symptom Checker"
+#~ msgstr "लक्षण परीक्षक"
+
+#~ msgid "Check symptoms manually for comprehensive diagnosis"
+#~ msgstr "व्यापक निदान के लिए मैन्युअल रूप से लक्षणों की जांच करें"
+
+#~ msgid "Soil Health Assessment"
+#~ msgstr "मृदा स्वास्थ्य मूल्यांकन"
+
+#~ msgid "Analyze soil conditions for optimal pearl millet growth"
+#~ msgstr "बाजरे की इष्टतम वृद्धि के लिए मिट्टी की स्थितियों का विश्लेषण करें"
+
+#~ msgid "Treatment Recommendations"
+#~ msgstr "उपचार की सिफारिशें"
+
+#~ msgid "Get personalized treatment plans based on diagnosis"
+#~ msgstr "निदान के आधार पर व्यक्तिगत उपचार योजनाएं प्राप्त करें"
+
+#~ msgid "How Does it Work"
+#~ msgstr "यह कैसे काम करता है"
+
+#~ msgid "Step 1: Upload Image"
+#~ msgstr "चरण 1: छवि अपलोड करें"
+
+#~ msgid "Simply upload a clear photo of your millet crop for analysis."
+#~ msgstr "विश्लेषण के लिए बस अपने बाजरे की फसल की एक स्पष्ट तस्वीर अपलोड करें।"
+
+#~ msgid "Step 2: AI Analysis"
+#~ msgstr "चरण 2: एआई विश्लेषण"
+
+#~ msgid "Our advanced AI scans the image for signs of ergot infection."
+#~ msgstr "हमारा उन्नत एआई अरगट संक्रमण के संकेतों के लिए छवि को स्कैन करता है।"
+
+#~ msgid "Step 3: Get Results"
+#~ msgstr "चरण 3: परिणाम प्राप्त करें"
+
+#~ msgid "Receive instant results with detection confidence percentage."
+#~ msgstr "पहचान सटीकता प्रतिशत के साथ तत्काल परिणाम प्राप्त करें।"
+
+#~ msgid "Healthy Crop - CropScanAI"
+#~ msgstr "स्वस्थ फसल - क्रॉपस्कैनएआई"
+
+#~ msgid "Healthy Crop Detected!"
+#~ msgstr "स्वस्थ फसल का पता चला!"
+
+#~ msgid "Great news! Our AI analysis has found"
+#~ msgstr "खुशखबरी! हमारे एआई विश्लेषण में पाया गया है"
+
+#~ msgid "no signs of ergot infection"
+#~ msgstr "अरगट संक्रमण के कोई संकेत नहीं"
+
+#~ msgid "in your pearl millet sample."
+#~ msgstr "आपके बाजरे के नमूने में।"
+
+#~ msgid "Health Confidence:"
+#~ msgstr "स्वास्थ्य सटीकता:"
+
+#~ msgid "Your Healthy Millet"
+#~ msgstr "आपका स्वस्थ बाजरा"
+
+#~ msgid "Tips to Keep Your Crop Healthy"
+#~ msgstr "अपनी फसल को स्वस्थ रखने के टिप्स"
+
+#~ msgid "Continue monitoring your crops regularly for early signs of disease"
+#~ msgstr ""
+#~ "रोग के शुरुआती लक्षणों के लिए अपनी"
+#~ " फसलों की नियमित निगरानी करना जारी"
+#~ " रखें"
+
+#~ msgid "Practice crop rotation to maintain soil health"
+#~ msgstr "मिट्टी के स्वास्थ्य को बनाए रखने के लिए फसल चक्र का अभ्यास करें"
+
+#~ msgid "Ensure proper spacing between plants for good air circulation"
+#~ msgstr "अच्छी हवा के संचार के लिए पौधों के बीच उचित दूरी सुनिश्चित करें"
+
+#~ msgid "Use certified disease-free seeds for planting"
+#~ msgstr "रोपण के लिए प्रमाणित रोग मुक्त बीजों का उपयोग करें"
+
+#~ msgid "Maintain proper irrigation practices to avoid waterlogging"
+#~ msgstr "जलभराव से बचने के लिए उचित सिंचाई प्रथाओं को बनाए रखें"
+
+#~ msgid "Learn About Ergot"
+#~ msgstr "अरगट के बारे में जानें"
+
+#~ msgid "{editor}: Editing failed"
+#~ msgstr "{editor}: संपादन विफल"
+
+#~ msgid "{editor}: Editing failed: {e}"
+#~ msgstr "{editor}: संपादन विफल: {e}"
+
+#~ msgid "{text} {deprecated_message}"
+#~ msgstr "{text} {deprecated_message}"
+
+#~ msgid "Options"
+#~ msgstr "विकल्प"
+
+#~ msgid "Got unexpected extra argument ({args})"
+#~ msgid_plural "Got unexpected extra arguments ({args})"
+#~ msgstr[0] "अप्रत्याशित अतिरिक्त तर्क मिला ({args})"
+#~ msgstr[1] "अप्रत्याशित अतिरिक्त तर्क मिले ({args})"
+
+#~ msgid "DeprecationWarning: The command {name!r} is deprecated.{extra_message}"
+#~ msgstr "पदावनति चेतावनी: कमांड {name!r} पदावनत है।{extra_message}"
+
+#~ msgid "Aborted!"
+#~ msgstr "रद्द किया गया!"
+
+#~ msgid "Commands"
+#~ msgstr "कमांड"
+
+#~ msgid "Missing command."
+#~ msgstr "कमांड गायब है।"
+
+#~ msgid "No such command {name!r}."
+#~ msgstr "ऐसा कोई कमांड {name!r} नहीं है।"
+
+#~ msgid "Value must be an iterable."
+#~ msgstr "मान एक पुनरावृत्ति योग्य होना चाहिए।"
+
+#~ msgid "Takes {nargs} values but 1 was given."
+#~ msgid_plural "Takes {nargs} values but {len} were given."
+#~ msgstr[0] "{nargs} मान लेता है लेकिन 1 दिया गया था।"
+#~ msgstr[1] "{nargs} मान लेता है लेकिन {len} दिए गए थे।"
+
+#~ msgid ""
+#~ "DeprecationWarning: The {param_type} {name!r} "
+#~ "is deprecated.{extra_message}"
+#~ msgstr "पदावनति चेतावनी: {param_type} {name!r} पदावनत है।{extra_message}"
+
+#~ msgid "env var: {var}"
+#~ msgstr "env var: {var}"
+
+#~ msgid "default: {default}"
+#~ msgstr "डिफ़ॉल्ट: {default}"
+
+#~ msgid "required"
+#~ msgstr "आवश्यक"
+
+#~ msgid "(dynamic)"
+#~ msgstr "(गतिशील)"
+
+#~ msgid "%(prog)s, version %(version)s"
+#~ msgstr "%(prog)s, संस्करण %(version)s"
+
+#~ msgid "Show the version and exit."
+#~ msgstr "संस्करण दिखाएं और बाहर निकलें।"
+
+#~ msgid "Show this message and exit."
+#~ msgstr "यह संदेश दिखाएं और बाहर निकलें।"
+
+#~ msgid "Error: {message}"
+#~ msgstr "त्रुटि: {message}"
+
+#~ msgid "Try '{command} {option}' for help."
+#~ msgstr "सहायता के लिए '{command} {option}' आज़माएँ।"
+
+#~ msgid "Invalid value: {message}"
+#~ msgstr "अमान्य मान: {message}"
+
+#~ msgid "Invalid value for {param_hint}: {message}"
+#~ msgstr "{param_hint} के लिए अमान्य मान: {message}"
+
+#~ msgid "Missing argument"
+#~ msgstr "तर्क गायब है"
+
+#~ msgid "Missing option"
+#~ msgstr "विकल्प गायब है"
+
+#~ msgid "Missing parameter"
+#~ msgstr "पैरामीटर गायब है"
+
+#~ msgid "Missing {param_type}"
+#~ msgstr "{param_type} गायब है"
+
+#~ msgid "Missing parameter: {param_name}"
+#~ msgstr "पैरामीटर गायब है: {param_name}"
+
+#~ msgid "No such option: {name}"
+#~ msgstr "ऐसा कोई विकल्प नहीं: {name}"
+
+#~ msgid "Did you mean {possibility}?"
+#~ msgid_plural "(Possible options: {possibilities})"
+#~ msgstr[0] "क्या आपका मतलब {possibility} था?"
+#~ msgstr[1] "(संभावित विकल्प: {possibilities})"
+
+#~ msgid "unknown error"
+#~ msgstr "अज्ञात त्रुटि"
+
+#~ msgid "Could not open file {filename!r}: {message}"
+#~ msgstr "फ़ाइल {filename!r} नहीं खोली जा सकी: {message}"
+
+#~ msgid "Usage:"
+#~ msgstr "उपयोग:"
+
+#~ msgid "Argument {name!r} takes {nargs} values."
+#~ msgstr "तर्क {name!r} {nargs} मान लेता है।"
+
+#~ msgid "Option {name!r} does not take a value."
+#~ msgstr "विकल्प {name!r} कोई मान नहीं लेता है।"
+
+#~ msgid "Option {name!r} requires an argument."
+#~ msgid_plural "Option {name!r} requires {nargs} arguments."
+#~ msgstr[0] "विकल्प {name!r} के लिए एक तर्क की आवश्यकता है।"
+#~ msgstr[1] "विकल्प {name!r} के लिए {nargs} तर्कों की आवश्यकता है।"
+
+#~ msgid "Shell completion is not supported for Bash versions older than 4.4."
+#~ msgstr "4.4 से पुराने बैश संस्करणों के लिए शेल पूर्णता समर्थित नहीं है।"
+
+#~ msgid "Couldn't detect Bash version, shell completion is not supported."
+#~ msgstr "बैश संस्करण का पता नहीं लगाया जा सका, शेल पूर्णता समर्थित नहीं है।"
+
+#~ msgid "Repeat for confirmation"
+#~ msgstr "पुष्टि के लिए दोहराएं"
+
+#~ msgid "Error: The value you entered was invalid."
+#~ msgstr "त्रुटि: आपके द्वारा दर्ज किया गया मान अमान्य था।"
+
+#~ msgid "Error: {e.message}"
+#~ msgstr "त्रुटि: {e.message}"
+
+#~ msgid "Error: The two entered values do not match."
+#~ msgstr "त्रुटि: दर्ज किए गए दो मान मेल नहीं खाते।"
+
+#~ msgid "Error: invalid input"
+#~ msgstr "त्रुटि: अमान्य इनपुट"
+
+#~ msgid "Press any key to continue..."
+#~ msgstr "जारी रखने के लिए कोई भी कुंजी दबाएं..."
+
+#~ msgid ""
+#~ "Choose from:\n"
+#~ "\t{choices}"
+#~ msgstr ""
+#~ "इनमें से चुनें:\n"
+#~ "\t{choices}"
+
+#~ msgid "{value!r} is not {choice}."
+#~ msgid_plural "{value!r} is not one of {choices}."
+#~ msgstr[0] "{value!r} {choice} नहीं है।"
+#~ msgstr[1] "{value!r} {choices} में से एक नहीं है।"
+
+#~ msgid "{value!r} does not match the format {format}."
+#~ msgid_plural "{value!r} does not match the formats {formats}."
+#~ msgstr[0] "{value!r} प्रारूप {format} से मेल नहीं खाता है।"
+#~ msgstr[1] "{value!r} प्रारूप {formats} से मेल नहीं खाता है।"
+
+#~ msgid "{value!r} is not a valid {number_type}."
+#~ msgstr "{value!r} एक मान्य {number_type} नहीं है।"
+
+#~ msgid "{value} is not in the range {range}."
+#~ msgstr "{value} {range} की सीमा में नहीं है।"
+
+#~ msgid "{value!r} is not a valid boolean. Recognized values: {states}"
+#~ msgstr "{value!r} एक मान्य बूलियन नहीं है। मान्यता प्राप्त मान: {states}"
+
+#~ msgid "{value!r} is not a valid UUID."
+#~ msgstr "{value!r} एक मान्य UUID नहीं है।"
+
+#~ msgid "file"
+#~ msgstr "फ़ाइल"
+
+#~ msgid "directory"
+#~ msgstr "निर्देशिका"
+
+#~ msgid "path"
+#~ msgstr "पथ"
+
+#~ msgid "{name} {filename!r} does not exist."
+#~ msgstr "{name} {filename!r} मौजूद नहीं है।"
+
+#~ msgid "{name} {filename!r} is a file."
+#~ msgstr "{name} {filename!r} एक फ़ाइल है।"
+
+#~ msgid "{name} {filename!r} is a directory."
+#~ msgstr "{name} {filename!r} एक निर्देशिका है।"
+
+#~ msgid "{name} {filename!r} is not readable."
+#~ msgstr "{name} {filename!r} पठनीय नहीं है।"
+
+#~ msgid "{name} {filename!r} is not writable."
+#~ msgstr "{name} {filename!r} लिखने योग्य नहीं है।"
+
+#~ msgid "{name} {filename!r} is not executable."
+#~ msgstr "{name} {filename!r} निष्पादन योग्य नहीं है।"
+
+#~ msgid "{len_type} values are required, but {len_value} was given."
+#~ msgid_plural "{len_type} values are required, but {len_value} were given."
+#~ msgstr[0] "{len_type} मानों की आवश्यकता है, लेकिन {len_value} दिया गया था।"
+#~ msgstr[1] "{len_type} मानों की आवश्यकता है, लेकिन {len_value} दिए गए थे।"
+
+#: templates/index.html:5
+msgid "AI Powered Crop Protection"
+msgstr "एआई संचालित फसल सुरक्षा"
+
+#: templates/index.html:6
+msgid "Pearl Millet Ergot Disease Detection System"
+msgstr "बाजरे की एरगॉट बीमारी पहचान प्रणाली"
+
+#: templates/index.html:7
+msgid ""
+"Advanced AI-powered detection for early identification and treatment of "
+"ergot disease in pearl millet crops"
+msgstr "बाजरे की फसलों में एरगॉट रोग की शीघ्र पहचान और उपचार के लिए उन्नत एआई आधारित प्रणाली"
+
+#: templates/index.html:10
+msgid "Get Started"
+msgstr "शुरू करें"
+
+#: templates/index.html:11
+msgid "Learn More"
+msgstr "और जानें"
+
+#: templates/index.html:20
+msgid "Your Complete Crop Protection Toolkit"
+msgstr "आपका संपूर्ण फसल सुरक्षा टूलकिट"
+
+#: templates/index.html:22
+msgid ""
+"Our comprehensive system provides everything you need to detect, diagnose, "
+"and treat ergot disease in pearl millet crops."
+msgstr "हमारी व्यापक प्रणाली बाजरे की फसलों में एरगॉट रोग का पता लगाने, निदान करने और उपचार करने के लिए आवश्यक सभी चीजें प्रदान करती है।"
+
+#: templates/index.html:27
+msgid "Image Analysis"
+msgstr "छवि विश्लेषण"
+
+#: templates/index.html:28
+msgid "Upload crop images for instant AI-powered disease detection"
+msgstr "एआई आधारित त्वरित रोग पहचान के लिए फसल की छवियां अपलोड करें"
+
+#: templates/index.html:33
+msgid "Symptom Checker"
+msgstr "लक्षण परीक्षक"
+
+#: templates/index.html:34
+msgid "Check symptoms manually for comprehensive diagnosis"
+msgstr "विस्तृत निदान के लिए लक्षणों को मैन्युअल रूप से जांचें"
+
+#: templates/index.html:39
+msgid "Soil Health Assessment"
+msgstr "मृदा स्वास्थ्य मूल्यांकन"
+
+#: templates/index.html:40
+msgid "Analyze soil conditions for optimal pearl millet growth"
+msgstr "बाजरे की फसल की उत्तम वृद्धि के लिए मिट्टी की स्थिति का विश्लेषण करें"
+
+#: templates/index.html:45
+msgid "Treatment Recommendations"
+msgstr "उपचार अनुशंसाएँ"
+
+#: templates/index.html:46
+msgid "Get personalized treatment plans based on diagnosis"
+msgstr "निदान के आधार पर व्यक्तिगत उपचार योजनाएँ प्राप्त करें"
+
+#: templates/index.html:52
+msgid "How Does it Work"
+msgstr "यह कैसे कार्य करता है"
+
+#: templates/index.html:58
+msgid "Step 1: Upload Image"
+msgstr "चरण 1: छवि अपलोड करें"
+
+#: templates/index.html:59
+msgid "Simply upload a clear photo of your millet crop for analysis."
+msgstr "विश्लेषण के लिए अपनी बाजरे की फसल की एक स्पष्ट फोटो अपलोड करें।"
+
+#: templates/index.html:64
+msgid "Step 2: AI Analysis"
+msgstr "चरण 2: एआई विश्लेषण"
+
+#: templates/index.html:65
+msgid "Our advanced AI scans the image for signs of ergot infection."
+msgstr "हमारा उन्नत एआई छवि को एरगॉट संक्रमण के संकेतों के लिए स्कैन करता है।"
+
+#: templates/index.html:70
+msgid "Step 3: Get Results"
+msgstr "चरण 3: परिणाम प्राप्त करें"
+
+#: templates/index.html:71
+msgid "Receive instant results with detection confidence percentage."
+msgstr "पता लगाने के आत्मविश्वास प्रतिशत के साथ त्वरित परिणाम प्राप्त करें।"
+
+
+#: templates/official_insights.html:6
+msgid "Pearl Millet Ergot Research"
+msgstr "बाजरा एर्गोट अनुसंधान"
+
+#: templates/official_insights.html:7
+msgid "Survey-Based Scientific Assessment of Claviceps fusiformis (Ergot) Disease Occurrence and Management Practices in India"
+msgstr "भारत में क्लाविसेप्स फ्यूसिफ़ॉर्मिस (एर्गोट) रोग की घटना और प्रबंधन प्रथाओं का सर्वेक्षण-आधारित वैज्ञानिक मूल्यांकन"
+
+#: templates/official_insights.html:12
+msgid "Featured Research"
+msgstr "प्रमुख अनुसंधान"
+
+#: templates/official_insights.html:15
+msgid "Disease Survey"
+msgstr "रोग सर्वेक्षण"
+
+#: templates/official_insights.html:16
+msgid "📅 2024"
+msgstr "📅 2024"
+
+#: templates/official_insights.html:17
+msgid "📍 Marathwada Region"
+msgstr "📍 मराठवाड़ा क्षेत्र"
+
+#: templates/official_insights.html:18
+msgid "⏱️ 4 min read"
+msgstr "⏱️ 4 मिनट पढ़ें"
+
+#: templates/official_insights.html:19
+msgid "Ergot Disease Survey in Pearl Millet - Marathwada Region"
+msgstr "बाजरे में एर्गोट रोग सर्वेक्षण - मराठवाड़ा क्षेत्र"
+
+#: templates/official_insights.html:20
+msgid "A comprehensive survey across nine tehsils in Chh. Sambhaji Nagar district (Kharif 2023-24) assessed ergot disease prevalence. Disease incidence ranged from 5.50%% (Phulambari) to 22.00%% (Kannad), with a mean of 13.19%%. Among cultivars, local varieties showed highest susceptibility (16.33%%), while Pioneer 86M38 demonstrated best resistance (8.04%%)."
+msgstr "छत्रसाल संभाजी नगर जिले के नौ तालुकों (खरीफ 2023-24) में किए गए व्यापक सर्वेक्षण में एर्गोट रोग की व्यापकता का आकलन किया गया। रोग की घटना 5.50%% (फुलंबरी) से 22.00%% (कन्नड़) तक थी, औसत 13.19%% रहा। किस्मों में, स्थानीय किस्में सबसे संवेदनशील (16.33%%) थीं, जबकि पायनियर 86M38 में सर्वश्रेष्ठ प्रतिरोध (8.04%%) देखा गया।"
+
+#: templates/official_insights.html:21
+msgid "Read Full Report →"
+msgstr "पूरा रिपोर्ट पढ़ें →"
+
+#: templates/official_insights.html:26
+msgid "Ram R. Rathod et al."
+msgstr "राम आर. राठोड एवं अन्य"
+
+#: templates/official_insights.html:27
+msgid "Biochem Journal, Vol. 8, Issue 12"
+msgstr "बायोकेम जर्नल, वॉल्यूम 8, अंक 12"
+
+#: templates/official_insights.html:36
+msgid "Disease Management"
+msgstr "रोग प्रबंधन"
+
+#: templates/official_insights.html:38
+msgid "📅 1988"
+msgstr "📅 1988"
+
+#: templates/official_insights.html:39
+msgid "📚 ICRISAT Manual"
+msgstr "📚 आईसीआरआईएसएटी मैनुअल"
+
+#: templates/official_insights.html:40
+msgid "Ergot Disease Management Guide"
+msgstr "एर्गोट रोग प्रबंधन मार्गदर्शिका"
+
+#: templates/official_insights.html:41
+msgid "ICRISAT's foundational manual on pearl millet ergot covers disease distribution, symptoms, fungal morphology, and disease cycle. Grain yield losses range from 58-70%% under favorable conditions. The guide emphasizes host-plant resistance as the primary control strategy."
+msgstr "आईसीआरआईएसएटी की बुनियादी मार्गदर्शिका बाजरे में एर्गोट रोग के वितरण, लक्षण, कवक संरचना और रोग चक्र को कवर करती है। अनुकूल परिस्थितियों में अनाज की पैदावार में 58-70%% तक नुकसान हो सकता है। मार्गदर्शिका में मुख्य नियंत्रण रणनीति के रूप में पौधों की प्रतिरोध क्षमता पर जोर दिया गया है।"
+
+#: templates/official_insights.html:42
+msgid "View ICRISAT Repository"
+msgstr "आईसीआरआईएसएटी संग्रह देखें"
+
+#: templates/official_insights.html:47
+msgid "R.P. Thakur & S.B. King"
+msgstr "आर.पी. ठाकुर एवं एस.बी. किंग"
+
+#: templates/official_insights.html:48
+msgid "International Crops Research Institute"
+msgstr "अंतर्राष्ट्रीय फसल अनुसंधान संस्थान"
+
+#: templates/official_insights.html:56
+msgid "Pathogen Biology"
+msgstr "रोगजनक जीवविज्ञान"
+
+#: templates/official_insights.html:58
+msgid "📅 Recent"
+msgstr "📅 हाल ही में"
+
+#: templates/official_insights.html:59
+msgid "🌍 Africa & Asia"
+msgstr "🌍 अफ्रीका और एशिया"
+
+#: templates/official_insights.html:60
+msgid "Understanding Claviceps fusiformis"
+msgstr "क्लाविसेप्स फ्यूसिफ़ॉर्मिस की समझ"
+
+#: templates/official_insights.html:61
+msgid "This specialized fungal pathogen affects pearl millet through honeydew production (creamy to pink droplets) on infected florets. Dark sclerotia replace grains, making produce unsafe due to toxic alkaloid content."
+msgstr "यह विशेष कवकीय रोगजनक बाजरे को प्रभावित करता है और संक्रमित फूलों पर हनीड्यू उत्पादन (क्रीमी से गुलाबी बूँदें) करता है। गहरे स्क्लेरोटिया अनाज को बदल देते हैं, जिससे उत्पाद विषाक्त क्षार सामग्री के कारण असुरक्षित हो जाता है।"
+
+#: templates/official_insights.html:62
+msgid "PlantWise Knowledge Bank"
+msgstr "प्लांटवाइज नॉलेज बैंक"
+
+#: templates/official_insights.html:67
+msgid "PlantWise Plus"
+msgstr "प्लांटवाइज प्लस"
+
+#: templates/official_insights.html:68
+msgid "CABI Compendium"
+msgstr "कैबीआई संकलन"
+
+#: templates/official_insights.html:76
+msgid "Genetics & Breeding"
+msgstr "अनुवांशिकी और प्रजनन"
+
+#: templates/official_insights.html:78
+msgid "🔍 Review Article"
+msgstr "🔍 समीक्षा लेख"
+
+#: templates/official_insights.html:79
+msgid "Biology and Genetics of Ergot in Cereals"
+msgstr "अनाज में एर्गोट का जीवविज्ञान और अनुवांशिकी"
+
+#: templates/official_insights.html:80
+msgid "Review of ergot diseases in cereals, focusing on Claviceps fusiformis in pearl millet. The pathogen infects unfertilized ovaries. A1 cytoplasm in male-sterile hybrids increases ergot severity, though nuclear genetic factors also influence resistance."
+msgstr "अनाज में एर्गोट रोगों की समीक्षा, बाजरे में क्लाविसेप्स फ्यूसिफ़ॉर्मिस पर ध्यान केंद्रित करती है। रोगजनक निषेचित अंडाशय को संक्रमित करता है। पुरुष-निष्क्रिय संकरों में A1 साइटोप्लाज्म एर्गोट की गंभीरता बढ़ाता है, हालांकि नाभिकीय आनुवंशिक कारक भी प्रतिरोध को प्रभावित करते हैं।"
+
+#: templates/official_insights.html:81
+msgid "Read Full Study"
+msgstr "पूर्ण अध्ययन पढ़ें"
+
+#: templates/official_insights.html:86
+msgid "Multiple Authors"
+msgstr "कई लेखक"
+
+#: templates/official_insights.html:87
+msgid "MDPI Toxins Journal"
+msgstr "एमडीपीआई टॉक्सिन्स जर्नल"
+
+#: templates/official_insights.html:95
+msgid "Variety Screening"
+msgstr "किस्मों की जांच"
+
+#: templates/official_insights.html:97
+msgid "🌾 Cultivar Analysis"
+msgstr "🌾 किस्म विश्लेषण"
+
+#: templates/official_insights.html:98
+msgid "Disease Incidence Across Pearl Millet Varieties"
+msgstr "बाजरे की विभिन्न किस्मों में रोग की घटना"
+
+#: templates/official_insights.html:99
+msgid "Field evaluations showed varying ergot susceptibility: Local varieties (16.33%%), Mahodya318 (15%%), NHB-4 (13.20%%), ABH1200fe (11.20%%), Samrudhi (7.75%%), and Pioneer 86M38 (8.04%% - best resistance)."
+msgstr "मैदान मूल्यांकन ने विभिन्न एर्गोट संवेदनशीलता दिखाई: स्थानीय किस्में (16.33%%), महोदय318 (15%%), NHB-4 (13.20%%), ABH1200fe (11.20%%), समृद्धि (7.75%%), और पायनियर 86M38 (8.04%% - सर्वश्रेष्ठ प्रतिरोध)।"
+
+#: templates/official_insights.html:100
+msgid "View Research Data"
+msgstr "अनुसंधान डेटा देखें"
+
+#: templates/official_insights.html:105
+msgid "Rathod et al."
+msgstr "राठोड एवं अन्य"
+
+#: templates/official_insights.html:106
+msgid "Field Survey Team"
+msgstr "मैदान सर्वेक्षण टीम"
+
+#: templates/official_insights.html:114
+msgid "Disease Control"
+msgstr "रोग नियंत्रण"
+
+#: templates/official_insights.html:116
+msgid "🎯 Integrated Approach"
+msgstr "🎯 समेकित दृष्टिकोण"
+
+#: templates/official_insights.html:117
+msgid "Integrated Control Strategies"
+msgstr "समेकित नियंत्रण रणनीतियाँ"
+
+#: templates/official_insights.html:118
+msgid "Effective ergot management combines host-plant resistance, cultural practices, and timely interventions. Resistant cultivars offer the most economical and sustainable control. Screening focuses on nuclear genetic factors for durable protection."
+msgstr "प्रभावी एर्गोट प्रबंधन में पौधों की प्रतिरोध क्षमता, सांस्कृतिक प्रथाएं और समय पर हस्तक्षेप शामिल हैं। प्रतिरोधी किस्में सबसे आर्थिक और स्थायी नियंत्रण प्रदान करती हैं। जांच स्थायी सुरक्षा के लिए नाभिकीय आनुवंशिक कारकों पर केंद्रित है।"
+
+#: templates/official_insights.html:119
+msgid "ICRISAT Guidelines"
+msgstr "आईसीआरआईएसएटी दिशानिर्देश"
+
+#: templates/official_insights.html:124
+msgid "ICRISAT Research Team"
+msgstr "आईसीआरआईएसएटी अनुसंधान टीम"
+
+#: templates/official_insights.html:125
+msgid "Crop Protection Division"
+msgstr "फसल सुरक्षा विभाग"
+
+#: templates/official_insights.html:133
+msgid "Geographic Distribution"
+msgstr "भौगोलिक वितरण"
+
+#: templates/official_insights.html:135
+msgid "📅 Current Status"
+msgstr "📅 वर्तमान स्थिति"
+
+#: templates/official_insights.html:136
+msgid "🗺️ Regional Impact"
+msgstr "🗺️ क्षेत्रीय प्रभाव"
+
+#: templates/official_insights.html:137
+msgid "Global Distribution and Economic Impact"
+msgstr "वैश्विक वितरण और आर्थिक प्रभाव"
+
+#: templates/official_insights.html:138
+msgid "Claviceps fusiformis threatens pearl millet across Africa and Asia, particularly F1 hybrids in India. Toxic sclerotia cause yield losses and render produce unsafe for consumption, creating food security concerns in affected regions."
+msgstr "क्लाविसेप्स फ्यूसिफ़ॉर्मिस अफ्रीका और एशिया में बाजरे को प्रभावित करता है, विशेष रूप से भारत में F1 संकरों में। विषाक्त स्क्लेरोटिया पैदावार में नुकसान और उपभोग के लिए उत्पाद को असुरक्षित बनाते हैं, जिससे प्रभावित क्षेत्रों में खाद्य सुरक्षा संबंधी चिंताएं पैदा होती हैं।"
+
+#: templates/official_insights.html:139
+msgid "CABI Database"
+msgstr "कैबीआई डेटाबेस"
+
+#: templates/official_insights.html:144
+msgid "CABI Research"
+msgstr "कैबीआई अनुसंधान"
+
+#: templates/official_insights.html:145
+msgid "Plant Health Database"
+msgstr "पौधों के स्वास्थ्य डेटाबेस"
+
+
+msgid "FAQ (Frequently Asked Questions)"
+msgstr "अक्सर पूछे जाने वाले प्रश्न (FAQ)"
+
+msgid "Quick answers to your biggest questions about detecting and preventing ergot in pearl millet."
+msgstr "मोती बाजरा में एर्गोट का पता लगाने और रोकने के बारे में आपके सबसे बड़े सवालों के त्वरित उत्तर।"
+
+msgid "What is ergot and why is it harmful?"
+msgstr "एर्गोट क्या है और यह हानिकारक क्यों है?"
+
+msgid "Ergot is a fungal disease that affects cereal crops like pearl millet. It produces toxic alkaloids that can cause serious health problems if consumed, including convulsions, hallucinations, and even death in severe cases."
+msgstr "एर्गोट एक कवक रोग है जो मोती बाजरा जैसी अनाज की फसलों को प्रभावित करता है। यह विषाक्त एल्कलॉइड का उत्पादन करता है, जो सेवन करने पर गंभीर स्वास्थ्य समस्याएं पैदा कर सकते हैं, जैसे झटके, भ्रम और गंभीर मामलों में मृत्यु।"
+
+msgid "How does this tool detect ergot?"
+msgstr "यह उपकरण एर्गोट का पता कैसे लगाता है?"
+
+msgid "Our tool uses advanced AI image recognition trained on thousands of images of healthy and ergot-infected millet. It analyzes the visual characteristics of your uploaded images to identify potential ergot contamination."
+msgstr "हमारा उपकरण हजारों स्वस्थ और एर्गोट से संक्रमित बाजरा की छवियों पर प्रशिक्षित उन्नत AI इमेज रिकॉग्निशन का उपयोग करता है। यह आपके अपलोड किए गए चित्रों की दृश्य विशेषताओं का विश्लेषण करता है ताकि संभावित एर्गोट संदूषण की पहचान की जा सके।"
+
+msgid "What should I do if ergot is detected?"
+msgstr "यदि एर्गोट का पता चलता है तो मुझे क्या करना चाहिए?"
+
+msgid "Separate and safely dispose of infected grains. Do not mix them with healthy ones."
+msgstr "संक्रमित अनाज को अलग करें और सुरक्षित रूप से निपटाएं। उन्हें स्वस्थ अनाज के साथ मिलाएं नहीं।"
+
+msgid "Can ergot-infected grains be consumed or sold?"
+msgstr "क्या एर्गोट-संक्रमित अनाज का सेवन या बिक्री की जा सकती है?"
+
+msgid "No. They are toxic and unsafe for food, feed, or sale."
+msgstr "नहीं। वे खाद्य, चारे या बिक्री के लिए विषाक्त और असुरक्षित हैं।"
+
+msgid "How can I prevent ergot infection in the future?"
+msgstr "भविष्य में एर्गोट संक्रमण को कैसे रोकें?"
+
+msgid "Use clean seeds, rotate crops, and harvest on time. Avoid planting in infected soil."
+msgstr "साफ बीजों का उपयोग करें, फसलों का चक्रीकरण करें और समय पर कटाई करें। संक्रमित मिट्टी में रोपण से बचें।"
+
+msgid "What kind of images should I upload for detection?"
+msgstr "पता लगाने के लिए मुझे किस प्रकार की छवियां अपलोड करनी चाहिए?"
+
+msgid "Upload clear, close-up photos of the millet grains in good lighting."
+msgstr "अच्छी रोशनी में बाजरा के दानों की स्पष्ट, क्लोज़-अप तस्वीरें अपलोड करें।"
+
+msgid "Is this tool free and who can use it?"
+msgstr "क्या यह उपकरण मुफ्त है और कौन इसका उपयोग कर सकता है?"
+
+msgid "Yes. Anyone can use it for free to check their millet for ergot."
+msgstr "हां। कोई भी अपने बाजरा में एर्गोट की जांच के लिए इसे मुफ्त में उपयोग कर सकता है।"
+
+msgid "Healthy Crop Detected!"
+msgstr "स्वस्थ फसल का पता चला!"
+
+msgid "Excellent news! Our advanced AI analysis has found no signs of ergot infection in your pearl millet sample. Your crop is in great condition."
+msgstr "उत्कृष्ट खबर! हमारे उन्नत एआई विश्लेषण में आपकी बाजरे की नमूने में किसी भी प्रकार के एर्गोट संक्रमण के कोई संकेत नहीं पाए गए। आपकी फसल बहुत अच्छी स्थिति में है।"
+
+msgid "Health Analysis"
+msgstr "स्वास्थ्य विश्लेषण"
+
+msgid "Health Score"
+msgstr "स्वास्थ्य अंक"
+
+msgid "Severity Level"
+msgstr "तीव्रता स्तर"
+
+msgid "Low"
+msgstr "कम"
+
+msgid "Analysis Time"
+msgstr "विश्लेषण समय"
+
+msgid "Model Accuracy"
+msgstr "मॉडल सटीकता"
+
+msgid "Risk Assessment"
+msgstr "जोखिम मूल्यांकन"
+
+msgid "Safe"
+msgstr "सुरक्षित"
+
+msgid "Sample Analysis"
+msgstr "नमूना विश्लेषण"
+
+msgid "Your Healthy Millet Sample"
+msgstr "आपका स्वस्थ बाजरे का नमूना"
+
+msgid "Verified Healthy"
+msgstr "स्वस्थ के रूप में प्रमाणित"
+
+msgid "Quality Metrics"
+msgstr "गुणवत्ता मापदंड"
+
+msgid "Premium Quality"
+msgstr "प्रिमियम गुणवत्ता"
+
+msgid "Recommendation:"
+msgstr "सिफारिश:"
+
+msgid "Continue your current crop management practices. Regular monitoring will help maintain this excellent health status."
+msgstr "अपनी वर्तमान फसल प्रबंधन प्रथाओं को जारी रखें। नियमित निगरानी इस उत्कृष्ट स्वास्थ्य स्थिति को बनाए रखने में मदद करेगी।"
+
+msgid "Tips to Maintain Crop Health"
+msgstr "फसल स्वास्थ्य बनाए रखने के सुझाव"
+
+msgid "Continue monitoring your crops regularly for early detection of any potential issues"
+msgstr "किसी भी संभावित समस्या का जल्दी पता लगाने के लिए अपनी फसल की नियमित निगरानी जारी रखें"
+
+msgid "Practice crop rotation annually to maintain soil health and reduce disease pressure"
+msgstr "मृदा स्वास्थ्य बनाए रखने और रोग दबाव कम करने के लिए हर साल फसल चक्रण का अभ्यास करें"
+
+msgid "Maintain proper plant spacing (15-20cm) to ensure adequate air circulation"
+msgstr "उचित हवा परिसंचरण सुनिश्चित करने के लिए सही पौधे की दूरी (15-20 सेमी) बनाए रखें"
+
+msgid "Use only certified, disease-free seeds from reliable sources for future planting"
+msgstr "भविष्य में रोपण के लिए केवल प्रमाणित, रोग-मुक्त बीज विश्वसनीय स्रोतों से उपयोग करें"
+
+msgid "Implement balanced irrigation - avoid both water stress and waterlogging conditions"
+msgstr "संतुलित सिंचाई लागू करें - पानी की कमी और जलभराव दोनों से बचें"
+
+msgid "Apply organic mulch to regulate soil temperature and moisture levels"
+msgstr "मृदा का तापमान और नमी स्तर नियंत्रित करने के लिए जैविक मल्च लागू करें"
+
+msgid "Scan Another Sample"
+msgstr "एक और नमूना स्कैन करें"
+
+msgid "Analyze more of your crops"
+msgstr "अपनी फसलों का और विश्लेषण करें"
+
+msgid "Learn About Ergot"
+msgstr "एर्गोट के बारे में जानें"
+
+msgid "Prevention and identification guide"
+msgstr "रोकथाम और पहचान गाइड"
+
+msgid "Download Report"
+msgstr "रिपोर्ट डाउनलोड करें"
+
+msgid "Save health certificate"
+msgstr "स्वास्थ्य प्रमाणपत्र सहेजें"
+
+msgid "Share Results"
+msgstr "परिणाम साझा करें"
+
+msgid "Send to agricultural advisor"
+msgstr "कृषि सलाहकार को भेजें"
+
+msgid "Ergot Infection Detected"
+msgstr "एर्गोट संक्रमण का पता चला"
+
+msgid "Our advanced AI analysis has identified ergot contamination in your pearl millet sample. Immediate attention is recommended to prevent further spread."
+msgstr "हमारे उन्नत एआई विश्लेषण ने आपके बाजरे के नमूने में एर्गोट संदूषण की पहचान की है। आगे फैलाव को रोकने के लिए तुरंत ध्यान देने की सिफारिश की जाती है।"
+
+msgid "Detection Analysis"
+msgstr "पता लगाने का विश्लेषण"
+
+msgid "Detection Confidence"
+msgstr "पता लगाने का आत्मविश्वास"
+
+msgid "Severity Level"
+msgstr "तीव्रता स्तर"
+
+msgid "High"
+msgstr "उच्च"
+
+msgid "Analysis Time"
+msgstr "विश्लेषण समय"
+
+msgid "Model Accuracy"
+msgstr "मॉडल सटीकता"
+
+msgid "Risk Assessment"
+msgstr "जोखिम मूल्यांकन"
+
+msgid "Critical"
+msgstr "संकटग्रस्त"
+
+msgid "Sample Analysis"
+msgstr "नमूना विश्लेषण"
+
+msgid "Your Diseased Millet Sample"
+msgstr "आपका संक्रमित बाजरे का नमूना"
+
+msgid "Verified Infected"
+msgstr "संक्रमित के रूप में प्रमाणित"
+
+msgid "Key Findings"
+msgstr "मुख्य निष्कर्ष"
+
+msgid "Mild Severity"
+msgstr "हल्की तीव्रता"
+
+msgid "Moderate Severity"
+msgstr "मध्यम तीव्रता"
+
+msgid "High Severity"
+msgstr "उच्च तीव्रता"
+
+msgid "The analysis indicates significant ergot presence in your sample. This fungal infection can produce harmful alkaloids that affect both crop quality and safety."
+msgstr "विश्लेषण में आपके नमूने में एर्गोट की महत्वपूर्ण उपस्थिति दर्शाई गई है। यह कवक संक्रमण हानिकारक एल्कलॉइड पैदा कर सकता है जो फसल की गुणवत्ता और सुरक्षा को प्रभावित करता है।"
+
+msgid "Action Required:"
+msgstr "क्रिया आवश्यक:"
+
+msgid "Immediate intervention is recommended to prevent further contamination and protect crop yields."
+msgstr "अतिरिक्त संदूषण को रोकने और फसल उत्पादन की सुरक्षा के लिए तुरंत हस्तक्षेप की सिफारिश की जाती है।"
+
+msgid "Recommended Actions"
+msgstr "सिफारिश की गई कार्रवाइयाँ"
+
+msgid "Immediately isolate infected crops to prevent spore spread to healthy plants in your field"
+msgstr "स्पोर के फैलाव को रोकने के लिए संक्रमित फसलों को तुरंत अलग करें"
+
+msgid "Apply appropriate fungicides recommended by certified agricultural experts or extension services"
+msgstr "प्रमाणित कृषि विशेषज्ञों या विस्तार सेवाओं द्वारा अनुशंसित उपयुक्त कवकनाशी का उपयोग करें"
+
+msgid "Increase planting spacing to improve air circulation and reduce humidity around plants"
+msgstr "हवा परिसंचरण सुधारने और पौधों के आसपास नमी कम करने के लिए रोपण की दूरी बढ़ाएँ"
+
+msgid "Implement crop rotation with non-host species to break the ergot disease cycle"
+msgstr "एर्गोट रोग चक्र को तोड़ने के लिए गैर-मेजबान प्रजातियों के साथ फसल चक्रण लागू करें"
+
+msgid "Consult with local agricultural extension services for region-specific treatment protocols"
+msgstr "क्षेत्र-विशिष्ट उपचार प्रोटोकॉल के लिए स्थानीय कृषि विस्तार सेवाओं से परामर्श करें"
+
+msgid "Scan Another Sample"
+msgstr "एक और नमूना स्कैन करें"
+
+msgid "Upload a new image for analysis"
+msgstr "विश्लेषण के लिए नई छवि अपलोड करें"
+
+msgid "Learn About Ergot"
+msgstr "एर्गोट के बारे में जानें"
+
+msgid "Comprehensive information guide"
+msgstr "व्यापक जानकारी गाइड"
+
+msgid "Download Report"
+msgstr "रिपोर्ट डाउनलोड करें"
+
+msgid "Save this analysis as PDF"
+msgstr "इस विश्लेषण को पीडीएफ के रूप में सहेजें"
+
+msgid "Get Expert Help"
+msgstr "विशेषज्ञ मदद प्राप्त करें"
+
+msgid "Connect with agricultural advisors"
+msgstr "कृषि सलाहकारों से संपर्क करें"
+
+msgid "Your pearl millet sample shows excellent health with no detectable signs of ergot or other fungal infections. The crop appears to have proper color, structure, and development."
+msgstr "आपका बाजरे का नमूना उत्कृष्ट स्वास्थ्य प्रदर्शित करता है और इसमें एर्गोट या अन्य कवक संक्रमण के कोई संकेत नहीं हैं। फसल का रंग, संरचना और विकास उपयुक्त प्रतीत होता है।"
+
+msgid "Ergot Infection Detected"
+msgstr "एर्गोट संक्रमण का पता चला"
+
+msgid "Our advanced AI analysis has identified ergot contamination in your pearl millet sample. Immediate attention is recommended to prevent further spread."
+msgstr "हमारे उन्नत एआई विश्लेषण ने आपके बाजरा नमूने में एर्गोट संदूषण की पहचान की है। आगे फैलने से रोकने के लिए तुरंत ध्यान देना आवश्यक है।"
+
+msgid "Detection Analysis"
+msgstr "पता लगाने का विश्लेषण"
+
+msgid "Detection Confidence"
+msgstr "पता लगाने का विश्वास"
+
+msgid "Severity Level"
+msgstr "गंभीरता स्तर"
+
+msgid "Mild"
+msgstr "हल्का"
+
+msgid "Moderate"
+msgstr "मध्यम"
+
+
+
+msgid "High"
+msgstr "उच्च"
+
+msgid "Analysis Time"
+msgstr "विश्लेषण समय"
+
+msgid "Model Accuracy"
+msgstr "मॉडल सटीकता"
+
+msgid "Risk Assessment"
+msgstr "जोखिम मूल्यांकन"
+
+msgid "Critical"
+msgstr "संकटपूर्ण"
+
+msgid "Low"
+msgstr "कम गंभीर"
+
+msgid "Medium"
+msgstr "मध्यम"
+
+msgid "Sample Analysis"
+msgstr "नमूना विश्लेषण"
+
+msgid "Your Diseased Millet Sample"
+msgstr "आपके संक्रमित बाजरा का नमूना"
+
+msgid "Verified Infected"
+msgstr "संक्रमित प्रमाणित"
+
+msgid "Key Findings"
+msgstr "मुख्य निष्कर्ष"
+
+msgid "High Severity"
+msgstr "उच्च गंभीरता"
+
+msgid "Severity"
+msgstr "गंभीरता"
+
+msgid "The analysis indicates significant ergot presence in your sample. This fungal infection can produce harmful alkaloids that affect both crop quality and safety."
+msgstr "विश्लेषण से पता चलता है कि आपके नमूने में एर्गोट की महत्वपूर्ण उपस्थिति है। यह फंगल संक्रमण हानिकारक एल्कलॉइड पैदा कर सकता है जो फसल की गुणवत्ता और सुरक्षा को प्रभावित करता है।"
+
+msgid "Action Required:"
+msgstr "कार्रवाई आवश्यक:"
+
+msgid "Immediate intervention is recommended to prevent further contamination and protect crop yields."
+msgstr "आगे संदूषण को रोकने और फसल उपज की रक्षा के लिए तुरंत हस्तक्षेप की सिफारिश की जाती है।"
+
+msgid "Recommended Actions"
+msgstr "अनुशंसित कार्रवाई"
+
+msgid "Immediately isolate infected crops to prevent spore spread to healthy plants in your field"
+msgstr "अपने खेत में स्वस्थ पौधों में स्पोर फैलने से रोकने के लिए संक्रमित फसलों को तुरंत अलग करें"
+
+msgid "Apply appropriate fungicides recommended by certified agricultural experts or extension services"
+msgstr "प्रमाणित कृषि विशेषज्ञों या विस्तार सेवाओं द्वारा अनुशंसित उचित कवकनाशी का उपयोग करें"
+
+msgid "Increase planting spacing to improve air circulation and reduce humidity around plants"
+msgstr "हवा के परिसंचरण में सुधार और पौधों के आसपास आर्द्रता कम करने के लिए रोपाई अंतराल बढ़ाएँ"
+
+msgid "Implement crop rotation with non-host species to break the ergot disease cycle"
+msgstr "एर्गोट रोग चक्र को तोड़ने के लिए गैर-मेजबान प्रजातियों के साथ फसल चक्र लागू करें"
+
+msgid "Consult with local agricultural extension services for region-specific treatment protocols"
+msgstr "क्षेत्र-विशिष्ट उपचार प्रोटोकॉल के लिए स्थानीय कृषि विस्तार सेवाओं से परामर्श करें"
+
+msgid "Scan Another Sample"
+msgstr "एक और नमूना स्कैन करें"
+
+msgid "Upload a new image for analysis"
+msgstr "विश्लेषण के लिए नई छवि अपलोड करें"
+
+msgid "Learn About Ergot"
+msgstr "एर्गोट के बारे में जानें"
+
+msgid "Comprehensive information guide"
+msgstr "व्यापक सूचना मार्गदर्शिका"
+
+msgid "Download Report"
+msgstr "रिपोर्ट डाउनलोड करें"
+
+msgid "Save this analysis as PDF"
+msgstr "इस विश्लेषण को पीडीएफ के रूप में सहेजें"
+
+msgid "Get Expert Help"
+msgstr "विशेषज्ञ सहायता प्राप्त करें"
+
+msgid "Connect with agricultural advisors"
+msgstr "कृषि सलाहकारों से संपर्क करें"
+
+
+#: templates/header.html:8
+msgid "CropScanAI"
+msgstr "क्रॉपस्कैनएआई"
+
+#: templates/header.html:9
+msgid "Smart Crop Detection"
+msgstr "स्मार्ट फसल पहचान"
+
+#: templates/header.html:14
+msgid "HOME"
+msgstr "मुख्य पृष्ठ"
+
+#: templates/header.html:15
+msgid "ABOUT ERGOT"
+msgstr "एर्गोट के बारे में"
+
+#: templates/header.html:16
+msgid "IDENTIFY"
+msgstr "पहचानें"
+
+#: templates/header.html:17
+msgid "OFFICIAL INSIGHTS"
+msgstr "आधिकारिक जानकारी"
+
+#: templates/header.html:18
+msgid "FAQs"
+msgstr "सामान्य प्रश्न"
+
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hi\n"
+
+#: templates/contact.html:6
+msgid "Contact Us"
+msgstr "हमसे संपर्क करें"
+
+#: templates/contact.html:7
+msgid "Have questions or feedback? We'd love to hear from you. Send us a message and we'll respond as soon as possible."
+msgstr "क्या आपके पास सवाल या प्रतिक्रिया है? हम आपकी प्रतिक्रिया सुनना पसंद करेंगे। हमें एक संदेश भेजें और हम जल्द ही जवाब देंगे।"
+
+#: templates/contact.html:13
+msgid "Send us a Message"
+msgstr "हमें संदेश भेजें"
+
+#: templates/contact.html:14
+msgid "Fill out the form below and our team will get back to you shortly."
+msgstr "नीचे फ़ॉर्म भरें और हमारी टीम जल्द ही आपसे संपर्क करेगी।"
+
+#: templates/contact.html:19
+msgid "Name"
+msgstr "नाम"
+
+#: templates/contact.html:22
+msgid "Enter your full name"
+msgstr "अपना पूरा नाम दर्ज करें"
+
+#: templates/contact.html:27
+msgid "Email"
+msgstr "ईमेल"
+
+#: templates/contact.html:30
+msgid "Enter your email address"
+msgstr "अपना ईमेल पता दर्ज करें"
+
+#: templates/contact.html:35
+msgid "Message"
+msgstr "संदेश"
+
+#: templates/contact.html:39
+msgid "Type your message here..."
+msgstr "यहाँ अपना संदेश टाइप करें..."
+
+#: templates/contact.html:44
+msgid "Send Message"
+msgstr "संदेश भेजें"
+
+#: templates/contact.html:50
+msgid "Message sent successfully! We'll get back to you soon."
+msgstr "संदेश सफलतापूर्वक भेज दिया गया! हम जल्द ही आपसे संपर्क करेंगे।"
