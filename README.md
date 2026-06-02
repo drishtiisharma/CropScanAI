@@ -1,34 +1,99 @@
----
-title: CropScanAI
-emoji: 🌾
-colorFrom: green
-colorTo: yellow
-sdk: docker
-app_file: app.py
-pinned: false
----
+# CropScanAI 🌾
+
+## AI-Powered Ergot Detection System for Pearl Millet
+
+CropScanAI is a web application that detects **Ergot disease in pearl millet grains** using Computer Vision and Deep Learning.
+
+Ergot is a fungal disease caused by *Claviceps fusiformis* that can significantly reduce crop yield, affect grain quality, and pose health risks to humans and animals if contaminated grains are consumed.
+
+Traditional disease detection often relies on manual inspection, which can be time-consuming, inconsistent, and difficult to perform at scale. CropScanAI provides a faster and more accessible solution by combining a **Convolutional Neural Network (CNN)** with a **Flask-based web application**.
+
+Users can upload an image of pearl millet grains, and the system analyzes the image to determine whether the sample is healthy or infected. The project aims to assist farmers, researchers, and agricultural professionals in identifying Ergot infections early, reducing crop losses and improving agricultural decision-making.
 
 
-# Contribution Guide
+## 📌 Problem Statement
 
-Welcome! Here’s how you can contribute and set up the project locally.
+Ergot disease is one of the most damaging fungal infections affecting pearl millet. Farmers often identify the disease only after visible symptoms become severe, leading to reduced crop quality and yield losses.
+
+CropScanAI aims to:
+
+- Reduce dependence on manual inspection
+- Detect infection quickly and accurately
+- Assist farmers in making timely decisions
+- Improve accessibility through a web-based platform
+- Promote technology-driven agriculture
+
+## ✨ Features
+
+- Upload pearl millet grain images for analysis
+- AI-powered disease detection using CNN
+- Real-time prediction through a Flask web application
+- Confidence score for predictions
+- Treatment recommendations for infected samples
+- Downloadable PDF reports
+- English and Hindi language support
+- Farmer-friendly user interface
+- Accessible through desktop and mobile web browsers
+- Responsive user interface for multiple screen sizes
+  
+## 🧠 How It Works
+
+1. User uploads an image of pearl millet grains.
+2. The image is preprocessed using OpenCV.
+3. The trained CNN model extracts visual features.
+4. The model predicts whether the sample is:
+   - Healthy
+   - Ergot Infected
+5. Results are displayed along with confidence scores and recommendations.
+
+### 🚀 Live Demo [![Open CropScanAI](https://img.shields.io/badge/Live-Demo-success)](https://drishtiisharma-cropscanai.hf.space/)
+
+## 📊 Model Performance
+
+The CNN model was trained using TensorFlow and Keras on a dataset containing healthy and Ergot-infected pearl millet grain images.
+
+| Metric | Value |
+|----------|----------|
+| Training Accuracy | 92% |
+| Validation Accuracy | 90% |
+| Epochs | 10 |
+
+The model demonstrated strong performance and good generalization on unseen data.
+
+## 🛠️ Technology Stack
+
+### Machine Learning
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+
+### Backend
+- Flask
+- Flask-Babel
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+- Font Awesome
+
+### Development Tools
+- Python
+- Git
+- VS Code
 
 
-## 1️⃣ Fork and Clone the Repository
+## ⚙️ Installation
 
-1. Fork this repository on GitHub.
-2. Clone it to your local machine:
+### Clone the Repository
 
 ```bash
-git clone <your-forked-repo-url>
-cd <repo-folder>
-````
+git clone https://github.com/yourusername/CropScanAI.git
+cd CropScanAI
+```
 
-
-
-## 2️⃣ Create a Python Virtual Environment
-
-Open a terminal in the project folder and run:
+### Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -36,99 +101,45 @@ python -m venv venv
 
 Activate it:
 
-* **Windows:**
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-* **Mac/Linux:**
+**Mac/Linux**
 
 ```bash
 source venv/bin/activate
 ```
 
-
-
-## 3️⃣ Install Required Libraries
-
-With the virtual environment activated, install dependencies:
+### Install Dependencies
 
 ```bash
 pip install tensorflow flask flask-babel opencv-python matplotlib gdown
 ```
 
-> ⚠️ Optional: `numpy` and `werkzeug` may be required, but they’re usually installed automatically.
-
-
-
-## 4️⃣ Train the Model (First-Time Setup Only)
-
-If you don’t already have `pearl_millet_ergot_model.h5`, train the model:
+### Train the Model
 
 ```bash
 python train.py
 ```
 
-This will:
-
-* Train the CNN on the dataset
-* Save the trained model as `pearl_millet_ergot_model.h5`
-
-> If you already have this file, you can skip this step.
-
-
-
-## 5️⃣ Test the Model (Optional)
-
-To verify the model works:
-
-```bash
-python test.py
-```
-
-> Ensure there’s a `test.jpg` image in your folder.
-> Output will be something like:
-
-```
-Diseased: Ergot
-```
-
-or
-
-```
-Healthy
-```
-
-
-## 6️⃣ Run the Flask App
-
-Start the Flask server:
+### Run the Application
 
 ```bash
 python app.py
 ```
 
-You should see:
+Open:
 
+```text
+http://127.0.0.1:5000
 ```
-* Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
-```
 
+## 🌍 Supported Languages
 
-## 7️⃣ Open in Browser
+- English
+- Hindi
 
-Go to:
-
-👉 [http://127.0.0.1:5000](http://127.0.0.1:5000)
-
-You’ll see the homepage (`index.html`). Navigate to `/identify` to upload an image and get results.
-
-
-## Download Dataset (Drive Links)
-
-- [Train Zip](https://drive.google.com/file/d/1oUbvcYsj4cKbeSTVbizR-p_mToBralFH/view?usp=drive_link)
-- [Val Zip](https://drive.google.com/file/d/1-k6XOZZcV5HjZOHTM0G-o32sbRn6v5Vn/view?usp=drive_link)
-
-
-
+The application uses Flask-Babel to provide multilingual support and improve accessibility for farmers.
